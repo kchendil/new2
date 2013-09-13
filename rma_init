@@ -1,0 +1,66 @@
+#!/bin/sh
+#
+# Copyright (c) 2010 Novell, Inc.
+# All rights reserved.
+#
+# description: Novell Role Mapping Administrator(RMA)
+# processname: java
+# config: Default with Novell IDM4 onwards is /opt/novell/identitymanager/rma/tomcat/conf/server.xml
+# pidfile: 
+# ports: Default 8010 and 8006. 8443 for secure HTTP access
+#
+# Basic support for the LSB(Linux Standard Base) Specification
+### BEGIN INIT INFO
+# Provides: rma
+# Required-Start:
+# Required-Stop:
+# Default-Start: 3 5
+# Default-Stop: 0 1 6
+# Description: Start/Stop Script for Novell RMA
+### END INIT INFO
+
+# Template configuration variables
+rmaHome=/opt/novell/idm/rma
+
+#
+# Start the rma service
+#
+StartRMA()
+{
+    echo "Starting Novell Role Mapping Administrator..."
+    ${rmaHome}/start.sh > $rmaHome/rmaStart.log 2>&1 &
+    return 0
+}	
+
+#
+# Stop the rma service
+#
+StopRMA()
+{
+    echo "Stopping Novell Role Mapping Administrator..."
+    ${rmaHome}/stop.sh > $rmaHome/rmaStop.log 2>&1 &
+}
+
+Usage()
+{
+	str1=`gettext rma "Usage: "`
+	str2=`gettext rma " { start | stop } "`
+	echo "$str1 $0 $str2"
+}
+
+case "$#" in
+'1') # Valid number of arguments
+	if [ "$1" = "start" ]
+	then
+		StartRMA
+	elif [ "$1" = "stop" ]
+	then
+		StopRMA
+	else
+		Usage
+	fi ;;
+*) # Invalid number of arguments
+	Usage ;;
+esac
+exit 0
+

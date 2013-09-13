@@ -1,0 +1,96 @@
+#login_form_panel {
+  position: absolute;
+  background: transparent;
+  z-index: 101;
+  border: none;
+  width: 500px;
+  left: 25%;
+  top: 15%;
+}
+
+.copyright {
+  color:#CFCDC6;
+  font-size:0.85em;
+}
+
+#login_titlespan {
+  padding-right: 40px;
+}
+
+#login_glass_pane {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(images/stripes.png);
+  background-repeat: repeat;
+  width: 100%;
+  height: 125%;
+  z-index: 100;
+  
+}
+
+.content {
+  background-color:#F6F6F6;;
+  padding:15px;
+  position:relative;
+  -moz-border-radius-bottomleft: 1em;
+  -moz-border-radius-bottomright: 1em;
+}
+
+.logintitle {
+  color: #4D6D8B;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.logintitle a {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  margin-left: 10px;
+}
+
+.loginDetail {
+  left:0;
+  overflow:auto;
+  padding-left:35px;
+  padding-bottom: 20px;
+  position:relative;
+  width:90%;
+}
+
+.loginDetail2 {
+  background-color:#ECE0C4;
+}
+
+.headTitleConfig {
+  line-height:1em;
+  color:#ECE0C4;
+  font-size:1em;
+}
+
+#novelllibloginmessage {
+  color: red;
+}
+
+.marginleft1 {
+  margin-left: 5.5em;
+}
+
+.loginDetail table {
+  margin-top: 2em;
+}
+
+.loginTitleInfoMsg {
+	color:#4D6D8B;
+	font-weight: bold;
+}
+
+.loginTitleErrMsg {
+	color:red;
+	font-weight: bold;
+}
+
+.loginClearButton {
+	margin-left: 5px;
+}

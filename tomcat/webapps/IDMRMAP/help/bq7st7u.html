@@ -1,0 +1,308 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN" "http://www.w3.org/TR/xhtml-basic/xhtml-basic11.dtd">
+
+<!-- saved from url=(0014)about:internet -->
+<html xml:lang="en" lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en" />
+<meta name="Generation-Date" content="Friday, March 30, 2012 14:37" />
+<meta name="Content-Date" content="Mon, 30 Mar 1912 12:00:00 GMT" />
+<meta name="Copyright" content="Copyright Novell, Inc. 2012" />
+
+<style type="text/css">
+  @import url(ui/styles.css);
+</style>
+
+<title>Troubleshooting the Role Mapping Administrator</title>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+  var thisId = "bq7st7u";
+  var parentId = "bq7ssd5";
+//--><!]]>
+</script>
+<script type="text/javascript" src="ui/config.js"></script>
+<script type="text/javascript" src="ui/resource.js"></script>
+<script type="text/javascript" src="ui/topic.js"></script>
+</head>
+
+<body>
+
+<noscript>
+  <div class='nav'>
+    <a id='tocref' href='bookinfo.html' class='nav'><img src='ui/images/root2.png' alt='Table of Contents' title='Table of Contents' />Table of Contents</a>
+  </div>
+</noscript>
+
+<div class='nav' id='topnav'>
+  <a href="bq7ssd5.html" class="nav"><img src="ui/images/prev.png" alt="previous" title="previous" />previous</a>
+  <img src="ui/images/virt_dot-line.png" alt="" />
+</div>
+
+
+<div class="sect1" id="bq7st7u">
+
+<h1 class="title">Troubleshooting the Role Mapping Administrator</h1>
+
+<div class="sect2" id="bq7sv1n">
+<div class="msgtext">
+            
+<p class="para">A Tomcat port conflict error occurs when you are starting the Role Mapping Administrator</p>
+          </div><div class="msgexplan">
+            <span class="title">Explanation:</span>
+            <span class="para">If you have the Role Mapping Administrator and the Roles Based Provisioning Module installed on the same server, the Tomcat shutdown ports conflict. </span>
+          </div><div class="msgexplan">
+            <span class="title">Action:</span>
+            <span class="para">To solve the problem:</span>
+            
+<div class="procedure">
+<ol class="steps">
+<li class="step" id="bq7suxr">
+<p class="para">Stop Role Mapping Administrator.</p></li>
+<li class="step" id="bq7szu5">
+<p class="para">Edit the<span class="filename"> /installation_directory/idmrmap/tomcat/conf/server.xml</span> file.</p></li>
+<li class="step" id="bq7szvs">
+<p class="para">Find the line <span class="literal">&lt;Server port=“8006” shutdown=“SHUTDOWN”&gt;</span>.</p></li>
+<li class="step" id="bq7szxb">
+<p class="para">Change the port to another port that is not in use.</p></li>
+<li class="step" id="bq7szyz">
+<p class="para">Save the changes, then restart the Role Mapping Administrator by using the following command from the <span class="literal">&lt;rma_install_path&gt;/rma/ </span>location.</p>
+<div class="formalpara" id="bq7t07x">
+                  <p class="title"><em class="title">Linux:</em>
+                  
+                    <span class="command">./start.sh</span>
+                  </p>
+                </div>
+
+<div class="formalpara" id="bq7t0fy">
+                  <p class="title"><em class="title">Windows:</em>
+                  
+                    <span class="command">start.bat</span>
+                  </p>
+                </div>
+</li></ol>
+</div>
+
+            
+<p class="para">The Role Mapping Administrator uses the following default ports:</p>
+            
+<div class="itemizedlist">
+<ul class="listbullet">
+<li class="listitem">
+<div class="formalpara" id="bq7t1jw">
+                  <p class="title"><em class="title">8081:</em>
+                  Used for HTTP access.</p>
+                </div>
+</li>
+<li class="listitem">
+<div class="formalpara" id="bq7t1vi">
+                  <p class="title"><em class="title">8443:</em>
+                  Used for secure HTTP access.</p>
+                </div>
+</li>
+<li class="listitem">
+<div class="formalpara" id="bq7t2e0">
+                  <p class="title"><em class="title">8006:</em>
+                  Used by the Tomcat application server.</p>
+                </div>
+</li></ul></div>
+
+          </div>
+</div>
+
+<div class="sect2" id="bq7t4gk">
+<div class="msgtext">
+            
+<p class="para">The Role Mapping Administrator is not accessible when Tomcat is already installed in a system using port 8443</p>
+          </div><div class="msgexplan">
+            <span class="title">Source:</span>
+            <span class="para">See the <span class="filename">catalina.out</span> file from the <span class="filename">&lt;<span class="replaceable">rma_install_path</span>&gt;/rma/tomcat/logs/</span> location to find the <span class="literal">java.net.BindException: Address already in use&lt;null&gt;</span>:8080 error. </span>
+          </div><div class="msgexplan">
+            <span class="title">Action:</span>
+            <span class="para">To solve the problem:</span>
+            
+<div class="procedure">
+<ol class="steps">
+<li class="step" id="bq7t4ax">
+<p class="para">Stop the Role Mapping Administrator.</p></li>
+<li class="step" id="bq7t4od">
+<p class="para">Change the port. For more information, see <q class="quote"><a href="http://www.novell.com/documentation/idm402/role_mapping_installation/data/bocc0pq.html#bocc0uz" class="ulink">Changing the Port Number</a></q> in the <span class="citetitle"><a href="http://www.novell.com/documentation/idm402/role_mapping_installation/data/index.html#index" class="ulink">Identity Manager Role Mapping Administrator 4.0.2 Installation and Configuration Guide</a></span>.</p></li>
+<li class="step" id="bq7t4s5">
+<p class="para">Restart the Role Mapping Administrator.</p></li></ol>
+</div>
+
+          </div>
+</div>
+
+<div class="sect2" id="bq7t5jj">
+<div class="msgtext">
+            
+<p class="para">You cannot authenticate to the Role Mapping Administrator</p>
+          </div><div class="msgexplan">
+            <span class="title">Action:</span>
+            <span class="para">Check the following items to correct the authentication problem. If the authentication issues continue, contact your system administrator.</span>
+            
+<div class="itemizedlist">
+<ul class="listbullet">
+<li class="listitem">
+<p class="listitem">The password is not correct.</p></li>
+<li class="listitem">
+<p class="listitem">The username does not exist in the user store.</p></li>
+<li class="listitem">
+<p class="listitem">There are multiple user accounts matching the specified username. Use the distinguished name (DN) instead of the common name (CN).</p></li>
+<li class="listitem">
+<p class="listitem">There are network problems. The user’s credentials are verified against the user store through an LDAP connection.</p></li>
+<li class="listitem">
+<p class="listitem">The LDAP server is not communicating.</p></li>
+<li class="listitem">
+<p class="listitem">If the eDirectory connection is using SSL, the certificate might have expired. Check with your system administrator to confirm whether the eDirectory certificate is valid or has expired.</p></li>
+<li class="listitem">
+<p class="listitem">The user account you are using does not have sufficient rights in the Roles Based Provisioning Module. Check with your administrator to verify that you have sufficient rights to use the Role Mapping Administrator.</p></li></ul></div>
+
+          </div>
+</div>
+
+<div class="sect2" id="bq7taml">
+<div class="msgtext">
+            
+<p class="para">You cannot access the Role Mapping Administrator after a successful installation</p>
+          </div><div class="msgexplan">
+            <span class="title">Action:</span>
+            <span class="para">Use the following procedure to resolve the problem:</span>
+            
+<div class="procedure">
+<ol class="steps">
+<li class="step" id="bq7t8yx">
+<p class="para">Start the Role Mapping Administrator after installing it.</p></li>
+<li class="step" id="bq7t9de">
+<p class="para">Check the <span class="filename">&lt;<span class="replaceable">rma_install_path</span>&gt;/rma/tomcat/conf/logging.properties</span> file. Use a different port if the port is already in use.</p></li>
+<li class="step" id="bq7t9kl">
+<p class="para">Stop the Role Mapping Administrator.</p></li>
+<li class="step" id="bq7t9on">
+<p class="para">Change the port to another port in the &lt;<span class="filename"><span class="replaceable">rma_install_path</span>&gt;/rma/tomcat/conf/server.xml</span> file.</p></li>
+<li class="step" id="bq7t9ur">
+<p class="para">Start Role Mapping Administrator.</p></li></ol>
+</div>
+
+          </div>
+</div>
+
+<div class="sect2" id="bqcryis">
+<div class="msgtext">
+            
+<p class="para">Expected roles are not being displayed</p>
+          </div><div class="msgexplan">
+            <span class="title">Explanation:</span>
+            <span class="para">Not all of the roles from the Roles Based Provisioning Module are being displayed, or too many roles are being displayed.</span>
+          </div><div class="msgexplan">
+            <span class="title">Action:</span>
+            <span class="para">If a user belongs to the Role Module Administrator role in the Roles Based Provisioning Module, the Role Mapping Administrator uses the proxy admin credentials defined in the Role Mapping Administrator configuration. Verify that the proxy admin user has the correct rights to the Identity Vault that contains the User Application driver.</span>
+          </div>
+</div>
+
+<div class="sect2" id="bqcs1dt">
+<div class="msgtext">
+            
+<p class="para">Expected roles from the SAP Portal are not being displayed</p>
+          </div><div class="msgexplan">
+            <span class="title">Explanation:</span>
+            <span class="para">When you load authorizations from the SAP Portal system, groups that start with SAP_, are not being displayed.</span>
+          </div><div class="msgexplan">
+            <span class="title">Action:</span>
+            <span class="para">If the SAP Portal is using an ABAP server as the Authentication DataSource, then by default the UME cannot assign ABAP roles (which appear as groups in the SAP Portal) directly to ABAP users. Most of these ABAP roles begin with SAP_. The SAP Portal driver is configured to filter these roles when the Role Mapping Administrator queries for the available groups.</span>
+            
+<p class="para">The filter is an XML filter element that is appended to the entitlement configuration object. By default, the filter element contains an attribute type that has a value of exclude. The filter element holds individual filters. Each filter contains the following attributes:</p>
+            
+<div class="itemizedlist">
+<ul class="listbullet">
+<li class="listitem">
+<div class="formalpara" id="bqcs4zn">
+                  <p class="title"><em class="title">read-attr:</em>
+                  The source for the match.</p>
+                </div>
+</li>
+<li class="listitem">
+<div class="formalpara" id="bqcs572">
+                  <p class="title"><em class="title">source-name:</em>
+                  The attribute on which the regular expression is evaluated against.</p>
+                </div>
+</li>
+<li class="listitem">
+<div class="formalpara" id="bqcs595">
+                  <p class="title"><em class="title">regex:</em>
+                  The regular expression that is used.</p>
+                </div>
+</li></ul></div>
+
+            
+<p class="para">You can modify the regular expression value or remove the value to change how the Role Mapping Administrator filters the results. By default, the regular expression is ^SAP_, which is evaluated as start with SAP underscore.</p>
+            
+<div class="figure" id="bqcs8ba"><p class="title"><em class="num">Figure 1 </em>XML Filter Element</p>
+                  <img src="images/portal_regex_a.png" alt="" />
+                </div>
+
+            
+<p class="para">To change the filter so you can see all groups:</p>
+            
+<div class="procedure">
+<ol class="steps">
+<li class="step" id="bqcs8ne">
+<p class="para">Using Designer or iManager, edit the SAP Portal driver policy pub-its-InitEntitlementConfigurationResource on the Publisher channel.</p></li>
+<li class="step" id="bqcs8qu">
+<p class="para">In Policy Builder, select the Entitlements rule.</p></li>
+<li class="step" id="bqcs8r6">
+<p class="para">In the for each action, find the XML element of the filter.</p></li>
+<li class="step" id="bqcs93u">
+<p class="para">Change the type attribute value from exclude to include.</p></li>
+<li class="step" id="bqcs963">
+<p class="para">Remove the regular expression value of ^SAP_.</p></li>
+<li class="step" id="bqcs96d">
+<p class="para">Save the changes, then restart the driver to have the changes take effect.</p></li></ol>
+</div>
+
+          </div>
+</div>
+
+<div class="sect2" id="bqcsas8">
+<div class="msgtext">
+            
+<p class="para">Authorizations are not being displayed</p>
+          </div><div class="msgexplan">
+            <span class="title">Explanation:</span>
+            <span class="para">Even after the authorizations being loaded, they are not displayed in the <span class="guimenu">Authorizations</span> panel.</span>
+          </div><div class="msgexplan">
+            <span class="title">Possible Cause:</span>
+            <span class="para">One of the reasons for this issue could be because of shutting down the Tomcat server by pressing the CTRL+C key combination, which stops the Tomcat server but not the Role Mapping Administrator database server. </span>
+          </div><div class="msgexplan">
+            <span class="title">Action:</span>
+            <span class="para">To shut down the Role Mapping Administrator service, use the <span class="command">stop.sh/stop.bat</span> command from the <span class="filename">&lt;rma_install_path&gt;/rma/</span> directory.</span>
+          </div>
+</div>
+
+<div class="sect2" id="briydtv">
+<div class="msgtext">
+            
+<p class="para">Drivers are not being displayed </p>
+          </div><div class="msgexplan">
+            <span class="title">Explanation:</span>
+            <span class="para">After configuring the new driver for role mapping, the driver is not displayed in the <span class="guimenu">Authorizations</span> panel.</span>
+          </div><div class="msgexplan">
+            <span class="title">Possible Cause:</span>
+            <span class="para">One of the reasons for this issue could be because of shutting down the Tomcat server by pressing the CTRL+C key combination, which stops the Tomcat server but not the Role Mapping Administrator database server.</span>
+          </div><div class="msgexplan">
+            <span class="title">Action:</span>
+            <span class="para">To shut down the Role Mapping Administrator service, use the <span class="command">stop.sh/stop.bat</span> command from the <span class="filename">&lt;rma_install_path&gt;/rma/</span> directory.</span>
+          </div>
+</div>
+
+</div>
+
+<p class="trademark"> For trademark and copyright information, see <a href="legal.html">Legal Notices</a>.</p>
+
+<div class='nav' id='bottomnav'>
+  <a href="bq7ssd5.html" class="nav"><img src="ui/images/prev.png" alt="previous" title="previous" />previous</a>
+  <img src="ui/images/virt_dot-line.png" alt="" />
+</div>
+
+</body>
+</html>

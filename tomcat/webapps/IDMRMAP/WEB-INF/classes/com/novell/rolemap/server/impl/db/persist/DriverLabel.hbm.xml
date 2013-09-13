@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+ <class name="com.novell.rolemap.server.impl.db.persist.DriverLabel" table="driverLabel">
+      <!-- Allow hibernate to manage the primary id internally -->
+	 <id name="driverLabelId" column="driverlabel_id">
+	 	<generator class="native"/>
+	 </id>
+	 <property name="value" column="value" length="255" type="java.lang.String" not-null="true"/>
+ 	 <property name="token" column="token" length="255" type="java.lang.String" not-null="true"/>
+
+	 <!-- Setup a foreign-key to the driver id column in the driver table.
+	      The set/get methods of the IDriverLabel must get/set a IDriver object -->
+	 <many-to-one name="driver" column="driver_id" class="com.novell.rolemap.server.impl.db.persist.Driver" not-null="true"/>
+	 
+	  <!-- Setup a foreign-key to the language id column in the language table. -->
+	 <many-to-one name="language" column="language_id" class="com.novell.rolemap.server.impl.db.persist.Language" not-null="true"/>
+ </class>
+ 
+</hibernate-mapping>

@@ -1,0 +1,40 @@
+main 2013-07-22 04:08:25,800 INFO  [com.novell.rolemap.servlet.listener.ContextListener:initalizeCacheManager] Server Lifetime cache initialized
+main 2013-07-22 04:08:25,830 INFO  [com.novell.rolemap.servlet.listener.ContextListener:loadApplicationProperties] Application configuration properties loaded from file: idmrmap.properties
+main 2013-07-22 04:08:28,307 INFO  [com.novell.rolemap.servlet.listener.ContextListener:createDatabaseTables] Created application database tables from file: createtables.sql
+main 2013-07-22 04:08:39,622 INFO  [com.novell.srvprv.spi.util.servlet.LogConfigurator:init] Logging successfully initialized by class com.novell.rolemap.servlet.listener.ContextListener.
+main 2013-07-22 22:49:05,923 INFO  [com.novell.rolemap.servlet.listener.ContextListener:initalizeCacheManager] Server Lifetime cache initialized
+main 2013-07-22 22:49:06,220 INFO  [com.novell.rolemap.servlet.listener.ContextListener:loadApplicationProperties] Application configuration properties loaded from file: idmrmap.properties
+main 2013-07-22 22:49:25,547 INFO  [com.novell.srvprv.spi.util.servlet.LogConfigurator:init] Logging successfully initialized by class com.novell.rolemap.servlet.listener.ContextListener.
+main 2013-07-23 01:11:28,028 INFO  [com.novell.rolemap.servlet.listener.ContextListener:initalizeCacheManager] Server Lifetime cache initialized
+main 2013-07-23 01:11:28,254 INFO  [com.novell.rolemap.servlet.listener.ContextListener:loadApplicationProperties] Application configuration properties loaded from file: idmrmap.properties
+main 2013-07-23 01:11:54,406 INFO  [com.novell.srvprv.spi.util.servlet.LogConfigurator:init] Logging successfully initialized by class com.novell.rolemap.servlet.listener.ContextListener.
+main 2013-07-31 02:17:27,987 INFO  [com.novell.rolemap.servlet.listener.ContextListener:initalizeCacheManager] Server Lifetime cache initialized
+main 2013-07-31 02:17:28,108 INFO  [com.novell.rolemap.servlet.listener.ContextListener:loadApplicationProperties] Application configuration properties loaded from file: idmrmap.properties
+main 2013-07-31 02:17:48,216 INFO  [com.novell.srvprv.spi.util.servlet.LogConfigurator:init] Logging successfully initialized by class com.novell.rolemap.servlet.listener.ContextListener.
+main 2013-08-13 08:58:20,538 INFO  [com.novell.rolemap.servlet.listener.ContextListener:initalizeCacheManager] Server Lifetime cache initialized
+main 2013-08-13 08:58:20,830 INFO  [com.novell.rolemap.servlet.listener.ContextListener:loadApplicationProperties] Application configuration properties loaded from file: idmrmap.properties
+main 2013-08-13 08:58:41,456 INFO  [com.novell.srvprv.spi.util.servlet.LogConfigurator:init] Logging successfully initialized by class com.novell.rolemap.servlet.listener.ContextListener.
+main 2013-08-13 11:37:24,201 INFO  [com.novell.rolemap.servlet.listener.ContextListener:initalizeCacheManager] Server Lifetime cache initialized
+main 2013-08-13 11:37:24,433 INFO  [com.novell.rolemap.servlet.listener.ContextListener:loadApplicationProperties] Application configuration properties loaded from file: idmrmap.properties
+main 2013-08-13 11:37:45,180 INFO  [com.novell.srvprv.spi.util.servlet.LogConfigurator:init] Logging successfully initialized by class com.novell.rolemap.servlet.listener.ContextListener.
+main 2013-08-13 13:43:39,983 INFO  [com.novell.rolemap.servlet.listener.ContextListener:initalizeCacheManager] Server Lifetime cache initialized
+main 2013-08-13 13:43:40,258 INFO  [com.novell.rolemap.servlet.listener.ContextListener:loadApplicationProperties] Application configuration properties loaded from file: idmrmap.properties
+main 2013-08-13 13:43:59,527 INFO  [com.novell.srvprv.spi.util.servlet.LogConfigurator:init] Logging successfully initialized by class com.novell.rolemap.servlet.listener.ContextListener.
+main 2013-08-17 06:57:19,217 INFO  [com.novell.rolemap.servlet.listener.ContextListener:initalizeCacheManager] Server Lifetime cache initialized
+main 2013-08-17 06:57:19,420 INFO  [com.novell.rolemap.servlet.listener.ContextListener:loadApplicationProperties] Application configuration properties loaded from file: idmrmap.properties
+main 2013-08-17 06:57:38,831 INFO  [com.novell.srvprv.spi.util.servlet.LogConfigurator:init] Logging successfully initialized by class com.novell.rolemap.servlet.listener.ContextListener.
+main 2013-09-11 05:31:48,356 INFO  [com.novell.rolemap.servlet.listener.ContextListener:initalizeCacheManager] Server Lifetime cache initialized
+main 2013-09-11 05:31:48,577 INFO  [com.novell.rolemap.servlet.listener.ContextListener:loadApplicationProperties] Application configuration properties loaded from file: idmrmap.properties
+main 2013-09-11 05:32:10,361 INFO  [com.novell.srvprv.spi.util.servlet.LogConfigurator:init] Logging successfully initialized by class com.novell.rolemap.servlet.listener.ContextListener.
+main 2013-09-11 08:26:03,306 INFO  [com.novell.rolemap.servlet.listener.ContextListener:initalizeCacheManager] Server Lifetime cache initialized
+main 2013-09-11 08:26:03,540 INFO  [com.novell.rolemap.servlet.listener.ContextListener:loadApplicationProperties] Application configuration properties loaded from file: idmrmap.properties
+main 2013-09-11 08:26:24,533 INFO  [com.novell.srvprv.spi.util.servlet.LogConfigurator:init] Logging successfully initialized by class com.novell.rolemap.servlet.listener.ContextListener.
+main 2013-09-12 02:56:57,290 INFO  [com.novell.rolemap.servlet.listener.ContextListener:initalizeCacheManager] Server Lifetime cache initialized
+main 2013-09-12 02:56:57,551 INFO  [com.novell.rolemap.servlet.listener.ContextListener:loadApplicationProperties] Application configuration properties loaded from file: idmrmap.properties
+main 2013-09-12 02:57:20,146 INFO  [com.novell.srvprv.spi.util.servlet.LogConfigurator:init] Logging successfully initialized by class com.novell.rolemap.servlet.listener.ContextListener.
+main 2013-09-13 01:53:30,854 INFO  [com.novell.rolemap.servlet.listener.ContextListener:initalizeCacheManager] Server Lifetime cache initialized
+main 2013-09-13 01:53:31,111 INFO  [com.novell.rolemap.servlet.listener.ContextListener:loadApplicationProperties] Application configuration properties loaded from file: idmrmap.properties
+main 2013-09-13 01:53:51,695 INFO  [com.novell.srvprv.spi.util.servlet.LogConfigurator:init] Logging successfully initialized by class com.novell.rolemap.servlet.listener.ContextListener.
+main 2013-09-13 04:43:26,150 INFO  [com.novell.rolemap.servlet.listener.ContextListener:initalizeCacheManager] Server Lifetime cache initialized
+main 2013-09-13 04:43:26,371 INFO  [com.novell.rolemap.servlet.listener.ContextListener:loadApplicationProperties] Application configuration properties loaded from file: idmrmap.properties
+main 2013-09-13 04:43:48,966 INFO  [com.novell.srvprv.spi.util.servlet.LogConfigurator:init] Logging successfully initialized by class com.novell.rolemap.servlet.listener.ContextListener.

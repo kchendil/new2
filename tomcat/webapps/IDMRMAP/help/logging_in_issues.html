@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- saved from url=(0014)about:internet -->
+<html xml:lang="en" lang="en">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en" />
+<meta name="Content-Date" content="Mon, 03 Jul 1911 12:00:00 GMT" />
+<meta name="Generator" content="Novell Documentation" />
+<meta name="Generation-Date" content="Monday, March 07, 2011" />
+<meta name="Copyright" content="Copyright Novell, Inc. 2010" />
+
+<style type="text/css">
+  @import url(ui/styles.css);
+</style>
+
+<title>Troubleshooting Authentication</title>
+</head>
+<body>
+
+<div class="sect1" id="logging_in_issues">
+
+<h1 class="title"> Troubleshooting Authentication</h1>
+
+<p class="para">Check the following items to correct the authentication problem. If the authenticating issues continue, contact your system administrator.</p>
+<div class="itemizedlist">
+<ul class="listbullet">
+<li class="listitem">
+<p class="listitem">The password is not correct.</p></li>
+<li class="listitem">
+<p class="listitem">The username does not exist in the user store.</p></li>
+<li class="listitem">
+<p class="listitem">There are multiple user accounts matching the specified username. Use the distinguished name (DN) instead of the common name (CN).</p></li>
+<li class="listitem">
+<p class="listitem">There are network problems. The user’s credentials are verified against the user store through an LDAP connection.</p></li>
+<li class="listitem">
+<p class="listitem">The LDAP server is not communicating.</p></li>
+<li class="listitem">
+<p class="listitem">If the eDirectory connection is using SSL, the certificate might have expired. Check with your system administrator to confirm whether the eDirectory certificate is valid or has expired.</p></li>
+<li class="listitem">
+<p class="listitem">The user account you are using does not have sufficient rights in the Roles Based Provisioning Module. Check with your administrator to verify that you have sufficient rights to use the Role Mapping Administrator. For more information on specific rights, refer to table.</p></li></ul></div>
+
+<p class="para">For more troubleshooting information, refer to <a href="bq7ssd5.html" class="xref">Troubleshooting</a>. </p>
+<p class="para"></p>
+</div>
+
+<p class="trademark"> For trademark and copyright information, see <a href="legal.html">Legal Notices</a>.</p>
+</body>
+</html>

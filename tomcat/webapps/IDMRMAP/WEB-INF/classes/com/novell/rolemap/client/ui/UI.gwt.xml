@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE module SYSTEM "gwt-module.dtd">
+<module>
+ 
+    <!-- Inherit the core Web Toolkit stuff.                        -->
+    <inherits name='com.google.gwt.user.User'/>
+    <inherits name='com.google.gwt.user.theme.standard.Standard'/>
+    <inherits name="com.google.gwt.core.Core"/>
+    <inherits name="com.google.gwt.user.History"/>
+    <inherits name="com.google.gwt.i18n.I18N"/>
+
+ 	<!--  Other Modules                                             -->
+    <inherits name="com.novell.gwt.lib.NovellGWTLib"/>
+    <inherits name="com.google.gwt.event.Event"/>
+    <inherits name="com.google.gwt.xml.XML" />
+
+ 
+
+    <set-property name="gwt.suppressNonStaticFinalFieldWarnings" value="true" /> 
+    
+    <entry-point class='com.novell.rolemap.client.ui.client.UI'/>
+    
+    <stylesheet src='UI.css'/>
+	    
+    <servlet path="/data/roleFetcherServiceRPC" class="com.novell.rolemap.servlet.RoleFetcherServiceImpl"/>
+    <servlet path="/" class="com.novell.rolemap.servlet.listener.ContextListener"/>
+    <servlet path="/config/edirConnectServiceRPC" class="com.novell.rolemap.servlet.EdirConnectServiceImpl"/>
+    <servlet path="/data/mappingColumnConfigServiceRPC" class="com.novell.rolemap.servlet.MappingColumnConfigServiceImpl"/>
+    
+</module>

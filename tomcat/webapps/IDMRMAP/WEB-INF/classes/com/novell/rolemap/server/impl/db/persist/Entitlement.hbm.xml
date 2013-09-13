@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="com.novell.rolemap.server.impl.db.persist.Entitlement"
+		table="entitlement">
+		<!-- Allow hibernate to manage the primary id internally -->
+		<id name="entitlementId" column="entitlement_id">
+			<generator class="native" />
+		</id>
+		<property name="entitlementCn" column="entitlement_cn"
+			length="255" type="java.lang.String" />
+		<property name="query" column="query" length="255"
+			type="java.lang.String" />
+		<property name="refreshFrequency" column="refresh_frequency"
+			type="java.lang.Integer" />
+		<property name="lastRefresh" column="last_refresh" type="java.lang.Integer" />
+
+		<!--
+			Setup a foreign-key to the driver id column in the driver table. The
+			set/get methods of the IEntitlement must get/set a IDriver object
+		-->
+		<many-to-one name="driver" column="driver_id" lazy="false"
+			class="com.novell.rolemap.server.impl.db.persist.Driver" not-null="true" />
+
+		<!--
+			Setup a parent/child relationship between the entitlement and its
+			children This does not create a column in the entitlement table it
+			simply allows hibernate to cascade the delete of a entitlement to
+			child tables.
+		-->
+
+		<!--
+			Query Result List
+		-->
+		<set name="queryResults" inverse="true" cascade="all">
+			<key column="entitlement_id" />
+			<one-to-many class="com.novell.rolemap.server.impl.db.persist.QueryResult" />
+		</set>
+
+		<!--
+			Entitlement label list
+		-->
+		<set name="entitlementLabels" inverse="true" cascade="all"
+			lazy="false">
+			<key column="entitlement_id" />
+			<one-to-many
+				class="com.novell.rolemap.server.impl.db.persist.EntitlementLabel" />
+		</set>
+	</class>
+
+</hibernate-mapping>

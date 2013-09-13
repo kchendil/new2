@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ ========================================================================
+
+ Copyright © 2009 Novell, Inc. All Rights Reserved.
+
+ THIS WORK IS SUBJECT TO U.S. AND INTERNATIONAL COPYRIGHT LAWS AND TREATIES
+ NO PART OF THIS WORK MAY BE USED, PRACTICED, PERFORMED COPIED, DISTRIBUTED,
+ REVISED, MODIFIED, TRANSLATED, ABRIDGED, CONDENSED, EXPANDED, COLLECTED,
+ COMPILED, LINKED, RECAST, TRANSFORMED OR ADAPTED WITHOUT THE PRIOR WRITTEN
+ CONSENT OF NOVELL, INC. ANY USE OR EXPLOITATION OF THIS WORK WITHOUT
+ AUTHORIZATION COULD SUBJECT THE PERPETRATOR TO CRIMINAL AND CIVIL 
+ LIABILITY.
+
+ ========================================================================
+--><!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug="false" reset="false" threshold="null">
+  
+   <!-- Example of enabling audit logging -->
+   <!-- just add the Naudit appender to the priority -->
+   <!--
+   <category additivity="true" name="com.novell">
+     <priority value="INFO"/>
+     <appender-ref ref="Naudit"/>
+   </category>
+   -->
+   
+   <!-- Audit Log appender -->
+   <appender class="com.novell.rolemap.server.impl.logging.naudit.NauditAppender" name="Naudit">
+    <param name="Threshold" value="INFO"/>
+   </appender>
+
+   <!-- Sys Log appender with XDAS JSON Layout  -->
+   <!-- please provide Host details in syslogHost parameter
+      for the syslog appender 
+   -->
+   <appender class="com.novell.rolemap.server.impl.logging.syslog.RMASyslogAppender" name="Syslog">
+    <param name="Facility" value="user"/>
+    <param name="syslogHost" value="localhost"/>
+    <param name="syslogProtocol" value="udp"/>
+    <!-- The following two parameters are required if the syslogProtocol is ssl -->
+    <!-- Provide the full path of the keystore file on the filesystem -->
+    <!-- and the password for the keystore -->
+    <param name="syslogSslKeystoreFile" value="KEYSTORE_FILE_PATH"/>
+    <param name="syslogSslKeystorePassword" value="KEYSTORE_PASSWORD"/>
+    <param name="Threshold" value="INFO"/>
+    <layout class="com.novell.rolemap.server.impl.logging.syslog.RMAXdasJSONLayout">
+    </layout>
+   </appender>
+
+   
+   <!-- System console appender -->
+   <appender class="org.apache.log4j.ConsoleAppender" name="CONSOLE_DEBUG">
+      <param name="Target" value="System.out"/>
+      <layout class="org.apache.log4j.PatternLayout">
+         <!-- The default pattern: Date Priority [Category] Message\n -->
+         <param name="ConversionPattern" value="%-5p [%c:%M] %m%n"/>
+      </layout>
+    <filter class="org.apache.log4j.varia.LevelRangeFilter">
+      <!-- param name="AcceptOnMatch" value="true"/ -->
+      <param name="LevelMax" value="debug"/>
+    </filter>
+   </appender>
+   
+   <appender class="org.apache.log4j.RollingFileAppender" name="FILE_APPENDER">
+        <param name="File" value="${catalina.home}/logs/idmrmap.log"/>
+        <param name="Append" value="true"/>
+	<param name="MaxFileSize" value="10MB"/>
+	<param name="MaxBackupIndex" value="10"/>
+        <layout class="org.apache.log4j.PatternLayout">
+   	     <param name="ConversionPattern" value="%t %d %-5p [%c:%M] %m%n"/>
+        </layout>           
+   </appender>
+  
+  <!-- Loggers -->
+  <category additivity="true" name="com.novell">
+    <priority value="INFO"/>
+    <appender-ref ref="CONSOLE_DEBUG"/>
+    <appender-ref ref="FILE_APPENDER"/>
+    <!-- remove this line to turn on syslog logging     
+    <appender-ref ref="Syslog"/>
+     remove this line to turn on audit logging -->
+
+    <!-- remove this line to turn on audit logging
+    <appender-ref ref="Naudit"/>
+    remove this line to turn on audit logging -->
+  <appender-ref ref="Naudit"/>
+</category>
+  <category additivity="true" name="com.novell.rolemap.servlet">
+    <priority value="INFO"/>
+  </category>
+  <category additivity="true" name="com.novell.rolemap.server.impl.service">
+    <priority value="INFO"/>
+  </category>
+  <category additivity="true" name="com.novell.rolemap.server.impl.util">
+    <priority value="INFO"/>
+  </category>
+  <category additivity="true" name="com.novell.rolemap.server.impl.auth">
+    <priority value="INFO"/>
+  </category>
+  <category additivity="true" name="com.novell.rolemap.server.impl.ldap.perist">
+    <priority value="INFO"/>
+  </category>
+  <category additivity="true" name="com.novell.rolemap.server.impl.ldap.util">
+    <priority value="INFO"/>
+  </category>
+  <category additivity="true" name="com.novell.rolemap.server.impl.db.persist">
+    <priority value="INFO"/>
+  </category>
+  <category additivity="true" name="com.novell.rolemap.server.impl.db.util">
+    <priority value="INFO"/>
+  </category> 
+</log4j:configuration>

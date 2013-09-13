@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- saved from url=(0014)about:internet -->
+<html xml:lang="en" lang="en">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en" />
+<meta name="Content-Date" content="Mon, 03 Jul 1911 12:00:00 GMT" />
+<meta name="Generator" content="Novell Documentation" />
+<meta name="Generation-Date" content="Monday, March 07, 2011" />
+<meta name="Copyright" content="Copyright Novell, Inc. 2010" />
+
+<style type="text/css">
+  @import url(ui/styles.css);
+</style>
+
+<title>Administrator Configuration</title>
+</head>
+<body>
+
+<div class="sect1" id="admin_config">
+
+<h1 class="title"> Administrator Configuration</h1>
+
+<p class="para">Use the following information to configure access to the Role Mapping Administrator. If you need additional help, see the <span class="citetitle"><a href="http://www.novell.com/documentation/idm401/role_mapping_installation/data/index.html#index" class="ulink">Identity Manager Role Mapping Administrator 4.0 Installation and Configuration Guide</a></span>.</p>
+<div class="itemizedlist">
+<ul class="listbullet">
+<li class="listitem">
+<div class="formalpara" id="bjgk11p">
+            <p class="title"><em class="title">Vault Display Name:</em>
+            Specify a display name for the Identity Vault in the Role Mapping Administrator.</p>
+          </div>
+</li>
+<li class="listitem">
+<div class="formalpara" id="bj9ut2q">
+            <p class="title"><em class="title">Role Vault Address:</em>
+            Specify the DNS address of the Identity Vault. IP addresses are accepted but not recommended.</p>
+          </div>
+</li>
+<li class="listitem">
+<div class="formalpara" id="bj27llt">
+            <p class="title"><em class="title">Role Vault Port:</em>
+            Specify the Identity Vault port. The default port is 389 or 636 for SSL.</p>
+          </div>
+</li>
+<li class="listitem">
+<div class="formalpara" id="bj27llu">
+            <p class="title"><em class="title">Use SSL:</em>
+            Select this option to connect to the Identity Vault through SSL.</p>
+          </div>
+</li>
+<li class="listitem">
+<div class="formalpara" id="bj9uwb6">
+            <p class="title"><em class="title">Admin DN:</em>
+            Specify the distinguished name (DN) of an Identity Vault administrator user. The administrator user provides a proxy through which the Role Mapping Administrator can perform LDAP operations in the Identity Vault.</p>
+          </div>
+</li>
+<li class="listitem">
+<div class="formalpara" id="bj9ux6g">
+            <p class="title"><em class="title">Admin Password:</em>
+            Specify the password for the Identity Vault administrator.</p>
+          </div>
+</li>
+<li class="listitem">
+<div class="formalpara" id="bjoalgz">
+            <p class="title"><em class="title">Root User Container:</em>
+            Browse to the root container for the user objects in the Identity Vault.</p>
+          </div>
+
+<p class="listitem">The container must be specified by the fully qualified LDAP DN. For example:</p>
+<p class="listitem">
+            <span class="literal">ou=users,ou=data,o=novell</span>
+          </p></li>
+<li class="listitem">
+<div class="formalpara" id="bjoalh0">
+            <p class="title"><em class="title">User App Driver DN:</em>
+            Browse to the User Application driver located in the Identity Vault.</p>
+          </div>
+
+<p class="listitem">The driver must be specified by the fully qualified LDAP DN. For example:</p>
+<p class="listitem">
+            <span class="literal">cn=UserApp1,ou=IDMDrivers,o=novell</span>
+          </p></li>
+<li class="listitem">
+<div class="formalpara" id="bjgk7ts">
+            <p class="title"><em class="title">Driver Discovery DN:</em>
+            Browse to the root location to search for drivers. For example, if you only have one driver set, specify it in this field. If you have multiple driver sets, specify the container that holds the driver sets. </p>
+          </div>
+
+<p class="listitem">If this field is left blank, an LDAP search is performed of the entire Identity Vault.</p></li>
+<li class="listitem">
+<div class="formalpara" id="bjgk84y">
+            <p class="title"><em class="title">Access Manager Logout URL:</em>
+            Specify the URL for the Access Manager Identity Server. This is an optional field to allow for allow for simultaneous logout from the Role Mapping Administrator and Access Manager.</p>
+          </div>
+</li>
+<li class="listitem">
+<div class="formalpara" id="bowwgo9">
+            <p class="title"><em class="title">Resource Category:</em>
+            Specify the default category with which the resources will be created.</p>
+          </div>
+</li></ul></div>
+
+</div>
+
+<p class="trademark"> For trademark and copyright information, see <a href="legal.html">Legal Notices</a>.</p>
+</body>
+</html>

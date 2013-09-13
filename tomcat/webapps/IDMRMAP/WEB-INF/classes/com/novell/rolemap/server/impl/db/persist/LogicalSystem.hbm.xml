@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="com.novell.rolemap.server.impl.db.persist.LogicalSystem"
+		table="logicalsystem">
+		<!-- Allow hibernate to manage the primary id internally -->
+		<id name="logicalSystemId" column="logicalsystem_id">
+			<generator class="native" />
+		</id>
+		<property name="logicalSystemName" column="logicalsystem_name"
+			length="255" type="java.lang.String" />
+
+		<!--
+			Setup a foreign-key to the driver id column in the driver table. The
+			set/get methods of the ILogicalSystem must get/set a IDriver object
+		-->
+		<many-to-one name="driver" column="driver_id" lazy="false"
+			class="com.novell.rolemap.server.impl.db.persist.Driver" not-null="true" />
+
+		<!--
+			Setup a parent/child relationship between the logical system and its children
+			This does not create a column in the logical system table it simply allows
+			hibernate to cascade the delete of a logical system to child tables. 
+		-->
+		<!--
+			Query result list
+		-->
+		<set name="queryResults" inverse="true" cascade="all">
+			<key column="logicalsystem_id" />
+			<one-to-many class="com.novell.rolemap.server.impl.db.persist.QueryResult" />
+		</set>
+
+		<!--
+			Logical System Label List
+		-->
+		<set name="logicalSystemLabels" inverse="true" cascade="all">
+			<key column="logicalsystem_id" />
+			<one-to-many class="com.novell.rolemap.server.impl.db.persist.LogicalSystemLabel" />
+		</set>
+		
+		<!--
+			Logical System Language List
+		-->
+		<set name="logicalSystemLanguages" inverse="true" cascade="all" lazy="false">
+			<key column="logicalsystem_id" />
+			<one-to-many class="com.novell.rolemap.server.impl.db.persist.LogicalSystemLanguage" />
+		</set>
+	</class>
+
+</hibernate-mapping>

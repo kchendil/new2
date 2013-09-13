@@ -1,0 +1,7 @@
+Reading RMA auditing configuration file: /opt/novell/idm/rma/tomcat/conf/idmrmap_logging.xml
+getElementForAttr: Get attribute name with value com.novell
+getElementForAttr: Get attribute ref with value Naudit
+nAudit enabled successfully.
+getElementForAttr: Get attribute ref with value Syslog
+updateFile: Backedup the original file as /opt/novell/idm/rma/tomcat/conf/idmrmap_logging.xml.org
+Updated configuration file successfully.

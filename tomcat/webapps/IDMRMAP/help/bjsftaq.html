@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN" "http://www.w3.org/TR/xhtml-basic/xhtml-basic11.dtd">
+
+<!-- saved from url=(0014)about:internet -->
+<html xml:lang="en" lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en" />
+<meta name="Generation-Date" content="Friday, March 30, 2012 14:37" />
+<meta name="Content-Date" content="Mon, 30 Mar 1912 12:00:00 GMT" />
+<meta name="Copyright" content="Copyright Novell, Inc. 2012" />
+
+<style type="text/css">
+  @import url(ui/styles.css);
+</style>
+
+<title>Generating Reports</title>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+  var thisId = "bjsftaq";
+  var parentId = "bookinfo";
+//--><!]]>
+</script>
+<script type="text/javascript" src="ui/config.js"></script>
+<script type="text/javascript" src="ui/resource.js"></script>
+<script type="text/javascript" src="ui/topic.js"></script>
+</head>
+
+<body>
+
+<noscript>
+  <div class='nav'>
+    <a id='tocref' href='bookinfo.html' class='nav'><img src='ui/images/root2.png' alt='Table of Contents' title='Table of Contents' />Table of Contents</a>
+  </div>
+</noscript>
+
+<div class='nav' id='topnav'>
+  <a href="bj8db50.html" class="nav"><img src="ui/images/prev.png" alt="previous" title="previous" />previous</a>
+  <img src="ui/images/virt_dot-line.png" alt="" />
+  <a href="bq7ssd5.html" class="nav">&nbsp;next<img src="ui/images/next.png" alt="next" title="next" /></a>
+</div>
+
+
+<div class="sect1" id="bjsftaq">
+
+<h1 class="title">Generating Reports</h1>
+
+<p class="para">The Role Mapping Administrator allows you to export a .<span class="filename">csv</span> file of the Identity Vault roles and any associated authorizations that are mapped to the managed system roles. This allows you to import the file into any third-party reporting applications to create your own custom reports.</p>
+<p class="para">To generate a report:</p>
+<div class="procedure">
+<ol class="steps">
+<li class="step" id="bjsggwo">
+<p class="para">In the Identity Vault panel, click <span class="guimenu">New Report</span> <img src="images/reporting_a.png" alt="New Report icon" title="New Report icon" class="inline" />.
+   </p></li>
+<li class="step" id="bjsgi18">
+<p class="para">Fill in the following fields to filter information in the report. If nothing is specified, the report contains information about all roles.</p>
+<div class="formalpara" id="bjsgkgn">
+          <p class="title"><em class="title">Role Name:</em>
+          Specify the starts with criteria to filter on. No wildcards are supported. Leaving the field blank is the same as no filter being applied. For example, specifying an A returns all roles that begin with an A. The AND operator is used with the <span class="guimenu">Name</span> field and the <span class="guimenu">Categories</span> and <span class="guimenu">Level </span>fields.</p>
+        </div>
+
+<div class="formalpara" id="bjsgkl8">
+          <p class="title"><em class="title">Categories:</em>
+          Select one or more values that a role must match before appearing in the report. The OR operator is used for the list of categories. For example, when you select <span class="guimenu">Doctor</span> and <span class="guimenu">Nurse</span> the report returns any roles in the categories of Doctor or Nurse.</p>
+        </div>
+
+<div class="formalpara" id="bjsgku6">
+          <p class="title"><em class="title">Level:</em>
+          Select one or more values that a role must match before appearing in the report. The OR operator is used for the list of levels. </p>
+        </div>
+</li>
+<li class="step" id="bjsgvpe">
+<p class="para">Click <span class="guimenu">OK</span> to generate the report.</p>
+<p class="para">The filename for the report is <span class="filename">idmrmap.csv</span>.</p></li></ol>
+</div>
+
+</div>
+
+<p class="trademark"> For trademark and copyright information, see <a href="legal.html">Legal Notices</a>.</p>
+
+<div class='nav' id='bottomnav'>
+  <a href="bj8db50.html" class="nav"><img src="ui/images/prev.png" alt="previous" title="previous" />previous</a>
+  <img src="ui/images/virt_dot-line.png" alt="" />
+  <a href="bq7ssd5.html" class="nav">&nbsp;next<img src="ui/images/next.png" alt="next" title="next" /></a>
+</div>
+
+</body>
+</html>

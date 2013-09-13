@@ -1,0 +1,23 @@
+/*
+ * This imports the styles from the lib project
+ * so they will be available.  We import them 
+ * first so they can be overridden in this file. 
+ */
+@import "NovellGWTLib.css";
+
+/*
+ * These are the styles that apply for all 
+ * browsers.  This is what used to be in UI.css
+ */
+@import "login.css";
+@import "base.css";
+@import "hf_dialog.css"; 
+
+/*
+ * This references a servlet which servers a
+ * different CSS file depending on the browser
+ * version.  The CSS files it serves are in
+ * WEB-INF/classes/css
+ */
+@import "platform.css";
+

@@ -1,0 +1,1855 @@
+
+/*
+ * These are base styles that will apply for all browsers.
+ */
+ 
+
+
+/*
+ * general page styles
+ */
+body {
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-size: small;
+  background-image: url(images/stripes.png);
+  background-repeat: repeat;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 1.7em;
+  color: rgb(115 142 214);
+}
+
+select, textarea, table td {
+  font-size: 13px;
+}
+
+#config_glass_pane {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(images/stripes.png);
+  background-repeat: repeat;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+}
+
+#profile_manager {
+	float: right;
+}
+
+.profile_controls {
+	float: left;
+}
+
+.profile_link {
+	padding-left: 0.2em;
+}
+.profile_label {
+	font-size: 0.85em;
+}
+
+#main_profile_list{
+	float: left;
+	width: 15em;
+}
+	
+.clearfix {
+	clear: both;
+}
+	
+.rowFormatterOdd td {
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 2px 10px 2px 4px;
+    border-bottom: 1px solid #BABDB6;
+}
+
+.rowFormatterEven td {
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 2px 10px 2px 4px;
+    border-bottom: 1px solid #BABDB6;
+}
+
+#map-grid table tr {
+    background-color: #ECE0C4;
+}
+
+#map-grid .headerRowFormatter td {
+    background-image: url(images/level_one_pattern4t.png);
+    background-repeat: repeat-x;
+    background-color: #d6d8d3;
+    border-bottom: 1px solid #273961;
+    font-weight: normal;
+    font-size: .75em;    
+    white-space: nowrap;
+    padding: 2px 10px 2px 0px;
+}
+
+.gwt-Button {
+  height: 1.9em;
+  min-width: 5em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+/*
+ * Generic form title styles
+ */
+.subtitle {
+  color: #000000;
+  font-weight: bold;
+  width: 36em;  
+  margin: 0 1em 1.5em 1em;  
+}
+
+.subtitle_message {
+  vertical-align: top;
+  color:#4D6D8B;
+  margin:5px;
+  padding:3px;
+  white-space:normal;
+}
+
+#splash_screen {
+  position: absolute;
+  left: 0px;
+  top: -10px;
+  width: 100%;
+  background: transparent;
+  z-index: 99;
+}
+
+#splash_screen p {
+  height: 6em;
+  background-color:#F6F6F6;
+  border-bottom:1px solid #BBBBB9;
+  border-left:1px solid #BBBBB9;
+  border-right:1px solid #BBBBB9;
+  vertical-align: middle;
+}
+
+#splash_screen p img {
+  margin-top: 15px;
+  vertical-align: middle; 
+  margin-right: 1em;
+  margin-left: 25px;
+  
+}
+
+.subtitle_message span {
+  vertical-align: top;
+}
+
+.subtitle_message img {
+  margin-right: 10px;
+}
+
+legend {
+  margin-left: 1em;
+  color: #000000;
+  font-weight: bold;
+  position: relative;  
+  left: -7px;  
+  top: -0.75em;
+}
+
+
+/*
+ * Styles for the server output
+ */
+#novelllib_errorpanel {
+  background: rgb(232, 230, 232);
+  font-size: 150%;
+  color: red;
+  
+  margin: 20 auto;
+  padding: 16px 16px 40px 16px;
+  font-weight: normal;
+  -moz-border-radius: 11px;
+  -khtml-border-radius: 11px;
+  -webkit-border-radius: 11px;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  -moz-box-shadow: rgba(200,200,200,1) 0 4px 18px;
+  -webkit-box-shadow: rgba(200,200,200,1) 0 4px 18px;
+  -khtml-box-shadow: rgba(200,200,200,1) 0 4px 18px;
+  box-shadow: rgba(200,200,200,1) 0 4px 18px;
+  width: 40em;
+  position: relative;
+}
+
+#novelllibb_errorpanel_hide {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 75%;
+}
+
+
+#notify_container {
+  float: left;
+  clear: left;
+}
+
+/*
+ * Generic for field styles
+ */
+fieldset {
+  padding:0 0 0.5em;
+  border: none;
+  margin: 1em 0;
+}
+
+fieldset ol {
+  list-style: none;
+  height: 1px;
+}
+
+fieldset li {
+  width: 100%;
+  left: -20px;
+  float: left;
+  margin-bottom: 1em;
+}
+
+fieldset.submit {
+  float: none;
+  width: auto;
+  border: 0 none #FFF;
+  padding-left: 12em;
+}
+
+/*
+ * Styles used for dialog boxes
+ */
+ 
+.dialogtitle {
+  color:#4D6D8B;
+  margin-bottom:5px;
+}
+
+.requiredtip {
+  margin-left: 350px;
+}
+
+#addrole_dialog_refresh {
+  margin-left: 400px;
+}
+
+.dialogformlabel {
+  clear: both;
+  color: black;
+  display: block;
+  float: left;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 22px;
+  text-align: left;
+  width: 7em;
+}
+
+.dialogformfield {
+  float: left;
+  width: 15em;
+  margin-top: 0px;
+  font-size: 13px;
+}
+
+.narrowdialogformfield {
+  float: left;
+  width: 7em;
+  margin-top: 0px;
+  font-size: 13px;
+}
+
+.dialog_footer {
+  background-color:#EFEEEC;
+  border-top:1px solid #BABDB6;
+  margin-top:1em;
+  padding:0.5em;
+  position: relative;
+  height: 3em;
+  
+}
+
+.dialog_messagepanel {
+  position: relative;
+}
+
+.dialog_message {
+  color: red;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+  border: 1px dotted black;
+  background-color: #FCECD3;
+}
+
+.dialog_info_message {
+  color: #1C5894;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+  border: 1px dotted black;
+  background-color: #FCECD3;
+}
+
+.dialog_refresh {
+  position: absolute;
+  right: 5px;
+}
+
+.dialogformradio {
+  display: block;
+}
+
+.dialog_footer button {
+  margin-left: 5px;
+}
+
+.dialog_footer_buttons {
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+}
+
+.dialog_container {
+   font-size: 13px;
+}
+
+.dialog_title {
+  background:transparent url(images/rounded_blue_fill.png) repeat-x scroll 0 0;
+  color:white;
+  font-size:1.1em;
+  font-weight:bold;
+  line-height: 1.2em;
+  height: 1.8em;
+  padding:0.2em;
+  text-align:left;
+  text-indent:0.2em;
+  position: relative;
+}
+
+.dialog_title_close {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+}
+
+/* Styles for the main header on the top of the page. */
+#heading {
+  position: relative;
+  background: url(images/RolesIntegrator_H_slice.gif) repeat-x;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 71px;
+  overflow: hidden;
+  -moz-border-radius-topleft: 1.5em;
+  -moz-border-radius-topright: 1.5em;
+}
+
+#mainheading {
+  position: relative;
+  background: url(images/RolesIntegrator_H_slice.gif) repeat-x;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 71px;
+  overflow: hidden;
+}
+
+#main_header {
+  width: 100%;
+}
+
+.headgraphic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.headtitle {
+  position: relative;
+  top: 40px;
+  left: 54px;
+  width: 240px;
+  font-size: .80em;
+  line-height: 1em;
+  z-index: 1;
+}
+
+.logo {
+  position: absolute; 
+  z-index: 1; 
+  top: 12px; 
+  right: 15px;
+}
+
+.header_actionbuttons {
+  height:3em;
+  position:absolute;
+  right:100px;
+  top:40px;
+  white-space:nowrap;
+  width:100px;
+  z-index:6;
+}
+
+.header_actionbuttons a {
+  color:white;
+  font-size:0.7em;
+  letter-spacing:0.1em;
+  padding-right:1.5em;
+  text-transform:uppercase;
+  text-decoration: none;
+}
+
+.novelllib_imagelink_hint {
+  color: #fff; 
+  font-size: .75em; 
+  position: absolute; 
+  z-index: 6;
+  top: -16px; 
+  
+  width: 150px; 
+  display: none; 
+  text-align: center;
+}
+
+#homehint {
+  left: -50px;
+}
+
+#exithint {
+  left: -55px;
+}
+
+#helphint {
+  left: -60px;
+}
+
+
+/* heading buttons */
+#homebut {
+  position: absolute; 
+  z-index: 6; 
+  top: 22px; 
+  left: 330px; 
+  width: 34px; 
+  height: 48px;
+}
+
+#exitbut {
+  position: absolute; 
+  z-index: 6; 
+  top: 22px;
+  left: 370px; 
+  width: 34px;
+  height: 48px;
+}
+
+#helpbut {
+  position: absolute; 
+  z-index: 6; 
+  top: 22px;
+  left: 424px;
+  width: 34px;
+  height: 48px;
+}
+
+/* Styles for the side-by side role and authorization panels */
+.NovellTable {
+    background-color: white;
+    overflow: auto;
+}
+
+
+#vault_roles, #authorizations {
+  z-index: 2;
+  height: 80%;
+  top: 5px;
+}
+
+#maincontainer {
+  position: relative;
+  width: 100%;
+}
+
+#vault_roles {
+  position: absolute;
+  left: 1%;
+  width: 53.5%;
+}
+
+#vault_roles table {
+  width: 100%;
+  background: white;
+  position: relative;
+  top: 0px;
+}
+
+.vaultPanel {
+  position: relative;
+}
+
+.roleGrid, .roleGridExpanded, .authGridExpanded, .mapGrid, .mapGridExpanded {
+  height: 46em;
+}
+
+.roleGrid {
+  display: block;
+  background-color:white;
+  border-right:2px solid #999999;
+  left:0;
+  overflow:auto;
+  position:relative;
+  top:0;
+  width:29.5%;
+}
+
+.roleGridExpanded {
+  display: block;
+  background-color:white;
+  border-right:2px solid #999999;
+  left:0;
+  overflow:auto;
+  position:relative;
+  top:0;
+  width:70%;
+}
+
+/* Grid on the authorizations side of the application */
+.authGridExpanded {
+  display: block;
+  background-color: #E3E5E2;
+  left:0;
+  width: 100%;
+  overflow:auto;
+  position:relative;
+  top:0;
+}
+
+.mapGrid {
+  display: block;
+  background-color:#ECE0C4;
+  border-left:2px solid #999999;
+  right: 0px;
+  overflow:auto;
+  position:absolute;
+  top:0;
+  width:29.5%;
+}
+
+.mapGridExpanded {
+  display: block;
+  background-color:#ECE0C4;
+  border-left:2px solid #999999;
+  right: 0px;
+  overflow:auto;
+  position:absolute;
+  top:0;
+  width:70%;
+}
+
+#authorizations {
+  position: absolute;
+  right: 1%;
+  width: 43.5%;
+}
+
+#authorizations table {
+  width: 100%;
+  background: white;
+  position: relative;
+}
+
+.hideColumn {
+	display: none;
+}
+/* Styles for the RolePanel Heading */
+
+.panelHeader {
+  margin-left: 0px;
+}
+
+.panelHeaderTop {
+  background: rgb(177,203,224) url(images/rounded_blue_fill.png) repeat-x;
+  height: 55px;  
+  margin-top: 10px;
+  -moz-border-radius-topleft: 11px;
+  -moz-border-radius-topright: 11px;
+  -khtml-border-radius-topleft: 11px;
+  -khtml-border-radius-topright: 11px;
+  -webkit-border-radius-topleft: 11px;
+  -webkit-border-radius-topright: 11px;
+  border-top-right-radius: 11px;
+  border-top-left-radius: 11px;
+  border-top: 1px none #e5e5e5;
+}
+
+/* Styles for the panel footer */
+
+.panelFooter {
+  margin-left: 0px;
+  background: rgb(177,203,224) url(images/rounded_blue_fill.png) repeat-x;
+  height: 22px;
+  padding-top: 0px;
+  margin-top: 0px;
+  -moz-border-radius-bottomleft: 11px;
+  -moz-border-radius-bottomright: 11px;
+  -khtml-border-radius-bottomleft: 11px;
+  -khtml-border-radius-bottomright: 11px;
+  -webkit-border-radius-bottomleft: 11px;
+  -webkit-border-radius-bottomright: 11px;
+  border-bottom-right-radius: 11px;
+  border-bottom-left-radius: 11px;
+  border-bottom: 1px none #e5e5e5;
+}
+
+.panelHeaderBottom {
+  background: rgb(177,203,224);
+  height: 29px;
+  position: relative;
+  padding-left: 3px;
+}
+
+.panelHeaderBottom .novelllib_rightleftpanel_right {
+  top: 0px;
+}
+
+.panelHeaderBottom .novelllib_rightleftpanel_left {
+  top: 0px;
+}
+
+.panelHeaderTop .novelllib_rightleftpanel_right {
+  top: 37px;
+}
+
+/** Copied from the shared library css to over-ride */
+.novelllib_rightleftpanel li a {
+  padding: 7px 5px;
+}
+
+.novelllib_rightleftpanel .panelHeaderTextAction a:hover {
+  background-color: #698EB9;
+  color: white;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.panelHeaderActionIcon a:hover {
+  cursor: pointer;
+}
+
+.panelHeaderActionIcon-disabled a:hover {
+  cursor: default;
+}
+
+.panelHeaderSelector {
+  padding: 2px;
+  font-size: 11px;
+  vertical-align: top;
+}
+
+.panelHeaderLabel {
+  font-size: 1.3em;
+  padding: 1px;
+  overflow: hidden;
+}
+
+.novelllib_rightleftpanel .panelHeaderLabel a:hover {
+  font-weight: normal;
+}
+
+.novelllib_rightleftpanel .panelHeaderLabel a img {
+  margin-left: 3px;
+}
+
+.panelHeaderIcon {
+  vertical-align: top;
+  font-size: large;
+  padding: 1px;
+  position: relative;
+  top: -15px;
+}
+
+.panelHeaderDriverIcon {
+  width: 60px;
+}
+
+.logical_system_panel {
+  z-index: 10;
+  border: groove;
+  background-color: #F6F6F6;
+  position: absolute;
+  padding: 5px; 
+}
+
+.logical_system_panel_listbox {
+  max-height: 15em;
+  width: 13em;  
+  overflow: auto;
+  cursor: default;
+}
+
+.logical_system_selector_btn {
+  margin-left: 5px;
+  vertical-align: text-bottom;  
+}
+
+.sysSelListDriver { 
+  margin: .25em 0; 
+  font-weight: bold; 
+  background-color: transparent; 
+  padding: 3px 5px 3px 5px;  
+  vertical-align: top; 
+} 
+
+.sysSelListSystem { 
+  margin-left: 1em;
+}
+
+.rolemapfield {
+  width: 30em;
+  margin-top: 5px;
+}
+
+.rolemappanel {
+  
+}
+
+.rolemapbuttonbar {
+  float: right;
+  clear: right;
+}
+
+.rolemapbuttonbar button {
+  margin-left: 5px;
+}
+
+.role_dialog_owner {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+.role_dialog_owner_leftpanel {
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  width: 45%;
+  height: 200px;
+}
+
+.addrole_dialogformfield {
+  float:left;
+  width: 70%;
+}
+  
+
+.role_dialog_owner_searchpanel {
+  height: 25%;
+}
+
+.role_dialog_owner_searchpanel select {
+  
+}
+
+.role_dialog_owner_possible_list {
+  width: 100%;
+  height: 70%;
+  margin-top: 5px;
+}
+
+.role_dialog_owner_leftpanel input {
+  width: 70%;
+}
+
+.role_dialog_owner_leftpanel button {
+  width: 30%;
+  min-width: 0px;
+}
+
+.role_dialog_owner_rightpanel {
+  width: 45%;
+  height: 200px;
+  position: absolute;
+  top: 5px;
+  right: 0px;
+}
+
+.role_dialog_owner_owner_label {
+  height: 10%
+}
+
+.role_dialog_owner_rightpanel select {
+  width: 100%;
+  height: 85%;
+  margin-top: 5px;
+}
+
+.role_dialog_owner_centerpanel {
+  width: 10%;
+  position: absolute;
+  top: 40%;
+  left: 46.5%;
+}
+
+.role_dialog_owner_centerpanel button {
+  display: block;
+}
+
+#add_role_dialog_cat_list {
+  height: 100px;
+}
+
+#edit_role_dialog_cat_list {
+  height: 100px;
+}
+
+#edit_role_dialog_level_tree {
+  overflow: auto;
+}
+
+#edit_role_dialog_level_tree span {
+  background: transparent;
+  position: relative;
+  left: -5px;
+}
+
+#add_mapping_dialog_description {
+	width: 100%;
+}
+
+#add_mapping_dialog_resource_name {
+	width: 100%;
+}
+
+#edit_mapping_dialog_description {
+	width: 100%;
+}
+
+#edit_mapping_dialog_resource_name {
+	width: 100%;
+}
+
+.rolemapoutputlabel {
+  color: red;
+}
+
+#dn_picker_dialog_label_div {
+  margin: 10px;
+}
+
+#dn_picker_dialog_tree_div {
+  margin: 10px;
+}
+
+#dn_picker_dialog {
+  z-index: 10;
+  position: absolute;
+  top: 275px;
+  left: 75px;
+  border: 1px solid black;
+  background-color: #F6F6F6;
+  width: 43em;
+}
+
+#dn_picker_dialog_tree {
+  height: 16em;
+  overflow: auto;
+  border-style: groove;
+  background: white;
+}
+
+#dn_picker_dialog_label_div {
+  position: relative;
+}
+
+#dn_picker_dialog_label_div_wait {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+}
+
+.dn_picker_button img {
+  margin-top: 0px;
+}
+  
+
+#add_role_dialog, #edit_role_dialog, #delete_role_dialog {
+  z-index: 10;
+  position: absolute;
+  top: 75px;
+  left: 175px;
+  border: 1px solid black;
+  background-color: #F6F6F6;
+  width: 45em;
+}
+
+#delete_role_dialog {
+  width: 30em;
+}
+
+#delete_role_message {
+  margin: 10px;
+}
+
+#add_role_dialog_level_tree {
+  height: 10em;
+  overflow: auto;
+  border-style: groove;
+  background: white;
+}
+
+/* base style for all filter/report dialogs */
+.filter_dialog {
+  background-color: #F6F6F6;
+  border: 1px solid black;
+  left: auto;
+  position: absolute;
+  top: 150px;
+  width: 25em;
+  z-index: 10;
+}
+
+.filter_dialog .dialog_content {
+  margin: 10px;
+  display: block;
+  text-align: left;
+}
+
+.filter_dialog .dialogformfield {
+  font-size: 0.85em;
+  margin-bottom: 1.2em;
+  margin-top: 0em;
+}
+
+.filter_dialog .filterNotification {
+  color: red;
+  margin-left: 6px;
+  margin-top: 1.0em;
+}
+
+/*   Authorization Filter Dialog */
+#auth_filter {
+  right: 20px !important;
+}
+
+#auth_filter .dialog_content {
+  height: 16em;
+}
+
+#auth_filter .dialog_content span {
+  display: block;
+  margin-right: 50%;
+}
+
+#auth_filter .dialog_content #auth_filter_type span {
+  display: block;
+  margin-right: 10%;
+}
+
+/*   Role Filter Dialog */
+#role_filter {
+  right: 55% !important;
+}
+
+#role_filter_category_loc {
+  border: 1px solid black;
+  height: 9.0em;
+  width: 80%;
+  overflow: auto;
+  margin-bottom: 1.2em;
+}
+
+#role_filter .dialog_content {
+  height: 24em;
+}
+
+#role_filter .dialog_content span {
+  display: block;
+  margin-right: 30%;
+}
+
+#role_filter_category_loc span {
+  display: block;
+  margin-right: 10%;
+}
+
+/*   Role Mapping Report Dialog */
+#role_report {
+  right: 35% !important;
+}
+
+#role_report_category_loc {
+  border: 1px solid black;
+  height: 9.0em;
+  width: 90%;
+  overflow: auto;
+  margin-bottom: 1.2em;
+}
+
+#role_report .dialog_content {
+  height: 27em;
+}
+
+#role_report .dialog_content span {
+  display: block;
+}
+
+#role_report span.reportInfoText {
+  margin-bottom: 1.2em;
+  color: #4D6D8B;
+}
+
+#role_report_name_loc .dialogformfield {
+  width: 90%;
+}
+
+#role_report_category_loc span {
+  display: block;
+  margin-right: 10%;
+}
+
+/*
+ * the eDirectory connection panel styles
+ */
+#dbimport_progress_panel {
+  z-index: 11;
+  width: 40em;
+  position: absolute;
+  top: 130px;
+  left: 50px;
+  background: lightgrey;
+  margin-left: 8px;
+  padding: 16px 16px 40px 16px;
+  font-weight: normal;
+  -moz-border-radius: 11px;
+  -khtml-border-radius: 11px;
+  -webkit-border-radius: 11px;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  -moz-box-shadow: rgba(200,200,200,1) 0 4px 18px;
+  -webkit-box-shadow: rgba(200,200,200,1) 0 4px 18px;
+  -khtml-box-shadow: rgba(200,200,200,1) 0 4px 18px;
+  box-shadow: rgba(200,200,200,1) 0 4px 18px;
+}
+
+#db_import_panel_update_tables {
+  margin-right: 5px;
+}
+
+#dbimport_progress_panel_title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#dbimport_progress_panel_close {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#edirconnect_test_btn {
+  margin-right: 10px;
+}
+
+#config_dialogtitle {
+  position: relative;
+}
+
+#config_launch_link {
+  min-width: 6em;
+}
+
+#userrootdn {
+  margin-top: 25px;
+}
+
+#resetbuttonlable {
+  width: 35em;
+}
+
+#edirconfig_form {
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  width: 65em;
+  z-index: 10;
+}
+
+.edirconfig_formfield {
+  float:left;
+  width: 15em;
+  margin-top: 0px;
+}
+
+.edirconfig_checkbox {
+  margin-left: 11em;
+}
+
+.message_div {
+  background-color: #ECE0C4;
+}
+
+.edirconfig_label {
+  width: 12em;
+  font-size:0.85em;
+  padding-right:0.2em;
+}
+
+#configheaderfields {
+  position: relative;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.config_sectiontitle {
+  background-color:#EDEEEC;
+  border-bottom:1px solid #BABDB6;
+  color:black;
+  font-size:0.85em;
+  font-weight:bold;
+  padding:0.2em;
+  text-align:left;
+  text-indent:0.2em;
+}
+
+.configtip {
+  position: absolute;
+  top: 5em;
+  left: 30em;
+  width: 20em;
+  color:#4D6D8B;
+  font-size:1em;
+}
+
+.testtip {
+  margin-left: 20px;
+  width: 48em;
+  color:#4D6D8B;
+  font-size:1em;
+}
+
+#configformfields {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#main_vaultport_txt {
+  width: 4em;
+}
+
+#main_displayname_txt {
+  width: 20em;
+}
+
+.wide_txt_field {
+	width: 30em;
+}
+
+.edirconfig_checkbox  label {
+  font-size:0.85em;
+  padding-right:0.2em;
+}
+
+
+  
+
+/* Load data Panel Styles */
+.LoadDataPanel {
+  height: 442px;
+  background-image: url("images/info-icon-18.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  font-size: 11px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.LoadDataPanelInfo {
+  font-size: 12px;
+}
+
+.LoadDataPanelAuthList, .LoadDataPanelLangList {
+  border-style: solid;
+  border-width: 1px;
+  margin: 0px 15% 30px 15%;
+}
+
+.LoadDataPanelAuthList .LoadDataPanelAuthListItem {
+  display: block;
+  margin-right:50%;
+  margin-bottom: 1.0em;
+  margin-top: 1.0em;
+}
+
+.LoadDataPanelInputRegion {
+  display: block;
+  height: 200px;
+}
+
+.LoadDataPanelAuthSection {
+  float: center;
+  clear: left;
+  width: 100%;
+}
+
+.LoadDataPanelSectionLabel {
+  margin-bottom: 2px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 30px;
+}
+
+.LoadDataPanelActionRegion {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center; 
+}
+
+.LoadDataPanelNoteHeader {
+  font-weight: bold;
+}
+
+.LoadDataPanel .gwt-Button {
+  font-size: 12px;
+}
+
+/* No Systems Panel Styles */
+.NoSystemsPanel {
+  height: 442px;
+  background-image: url("images/info_icon_large.gif");
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 40px;
+  padding-right: 25px;
+}
+
+.NoSystemsPanelInfo {
+  font-size: 1.2em;
+}
+
+.NoSystemsPanelInstructions, .NoSystemsPanelNote {
+  font-size: 1.0em;
+}
+
+/* Selector to bring the Load Data Dialog forward on the z-index */
+.gwt-DialogBox {
+  z-index: 10;
+}
+
+
+#error_dialog {
+  z-index: 10;
+  position: absolute;
+  top: 75px;
+  left: 175px;
+  border: 1px solid black;
+  background-color: #F6F6F6;
+  width: 36em;
+}
+
+
+/*  Logical system selector */
+.sysSelList {
+    width: 220px; 
+    font-size: 1em; 
+    font-weight: bold;
+} 
+
+.sysSelList option.title { 
+    color: #666666; 
+    margin: .25em 0; 
+    font-weight: bold; 
+} 
+
+.sysSelList option.item { 
+    margin-left: 1em; 
+}
+
+.sysLoadList { 
+    margin-left: 1em;  
+}
+
+.progressBarBg {
+background-image:url(images/graph_clear105.png);
+background-position:2px 2px;
+background-repeat:no-repeat;
+}
+
+#load_auth_dialog {
+  z-index: 10;
+  position: absolute;
+  top: 75px;
+  left: 35%;
+  border: 1px solid black;
+  background-color: #F6F6F6;
+  width: 35em;
+}
+
+#load_auth_table {
+  overflow:auto;
+  max-height:400;
+}
+
+.load_auth_time_label {
+  padding: 5px 5px 2px 0px; 
+    font-size:0.75em;
+    vertical-align: middle;
+}
+
+.loadList tr.regrow td 
+{   
+    font-size:0.75em;
+    padding: 2px 5px 2px 4px; 
+    border-bottom: 
+    1px solid #babdb6; 
+    background-color: white; 
+}
+
+td.leftend { border-left: 1px solid #bbbbb9; }
+td.rightend { border-right: 1px solid #bbbbb9; }
+.loadList tr.regrow td.righton { color: black; font-weight: 700; text-transform: uppercase; cursor: help; }
+.loadList tr.regrow td.rightoff { color: #bbbbb9; font-weight: normal; text-transform: uppercase; cursor: help; }
+.loadList tr.regrow td span.instructions { font-size: 0.95em; }
+
+.progressBarBg { 
+    background-image: url(images/graph_clear105.png); 
+    background-repeat:no-repeat; 
+    background-position: 2px 3px; 
+    width: 100px; 
+}
+
+.nv-footer {
+    background-color:#EFEEEC;
+    border-top:1px solid #BABDB6;
+    margin-top:1em;
+    padding:0.5em;
+    position:relative;
+    text-align:right;
+    vertical-align:middle;
+}
+
+tr.formrow td 
+{ 
+    background-color: transparent; 
+    padding: 3px 5px 3px 5px; 
+    border-bottom: 1px solid #d3d2cb; 
+    vertical-align: top; 
+}
+
+.padleftRight 
+{ 
+    padding-left: 15px;
+    padding-right: 5px;  
+}
+
+tr.formrowend td 
+{ 
+    background-color: transparent; 
+    padding: 3px 5px 3px 5px; 
+    vertical-align: top; 
+}
+
+.progress_dialog {
+  overflow:auto;
+  max-height: 300px
+  }
+  
+#load_auth_progress_dialog {
+  z-index: 10;
+  position: absolute;
+  top: 75px;
+  left: 35%;
+  border: 1px solid black;
+  background-color: #F6F6F6;
+  width: 35em;
+}
+
+#refresh_config_progress_dialog {
+  z-index: 10;
+  position: absolute;
+  top: 75px;
+  left: 35%;
+  border: 1px solid black;
+  background-color: #F6F6F6;
+  width: 35em;
+}
+
+#init_load_progress_dialog {
+  z-index: 10;
+  position: absolute;
+  top: 75px;
+  left: 35%;
+  border: 1px solid black;
+  background-color: #F6F6F6;
+  width: 35em;
+}
+
+#no_systems_progress_dialog {
+  z-index: 10;
+  position: absolute;
+  top: 75px;
+  left: 35%;
+  border: 1px solid black;
+  background-color: #F6F6F6;
+  width: 35em;
+}
+
+#info_dialog {
+  z-index: 10;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  border: 1px solid black;
+  background-color: #F6F6F6;
+  width: 40em;
+}
+
+/* Information dialog panel Styles */
+.InfoPanel {
+  background-image: url("images/info_icon_large.gif");
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 40px;
+  padding-right: 25px;
+  min-height: 5em;
+}
+
+.InfoPanelInfo {
+  font-size: .85em;
+}
+
+tr.progressrow td 
+{ 
+    background-color: transparent; 
+    padding: 3px 5px 3px 5px; 
+    border-bottom: 1px solid #d3d2cb; 
+    vertical-align: middle; 
+}
+
+tr.progressrowend td 
+{ 
+    background-color: transparent; 
+    padding: 3px 5px 3px 5px; 
+    vertical-align: middle; 
+}
+
+tr.progressRow .nowrap 
+  { white-space: nowrap }
+
+.dbimport_button {
+  margin-left: 5px;
+}
+
+tr.rowFormatter td.highlight {
+    background-color: #F5F6F5;
+}
+
+tr.rowFormatter td.row-selected {
+    background-color: rgb(177, 203, 224);
+}
+
+.gwt-TextArea {
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.gwt-Text {
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-size: 1em;
+}
+
+
+.pending-state {
+  font-style: italic;
+  color: #888888;
+}
+
+.mapping_dialog_table {
+  table-layout: fixed;
+}
+
+.settingsformlabel {
+  color:black;
+  display:inline-block;
+  font-size:100%;
+  font-weight:normal;
+  text-align:left;
+  width: 20em;
+  margin-top: 5px;
+}
+
+.settingsformcontrol {
+  color:black;
+  display:inline-block;
+  font-size:100%;
+  font-weight:normal;
+  text-align:left;
+  margin-top: 5px;
+}
+
+#confirm_mapping_dialog { 
+  z-index: 10;
+  position: absolute;
+  top: 75px;
+  left: 175px;
+  border: 1px solid black;
+  background-color: #F6F6F6;
+  width: 34em;
+}
+
+#confirm_dialog { 
+  z-index: 10;
+  position: absolute;
+  top: 75px;
+  left: 175px;
+  border: 1px solid black;
+  background-color: #F6F6F6;
+  width: 30em;
+}
+
+#add_mapping_dialog { 
+  z-index: 10;
+  position: absolute;
+  top: 75px;
+  left: 175px;
+  border: 1px solid black;
+  background-color: #F6F6F6;
+  width: 30em;
+}
+
+#edit_mapping_dialog { 
+  z-index: 10;
+  position: absolute;  
+  top: 75px;
+  left: 175px;
+  border: 1px solid black;
+  background-color: #F6F6F6;
+  width: 30em;
+}
+
+#config_columns_dialog {
+  z-index: 10;
+  position: absolute;
+  top: 200px;
+  left: 30%;
+  border: 1px solid black;
+  background-color: #F6F6F6;
+  width: 15em;
+}
+
+#resource_settings_dialog {
+  z-index: 10;
+  position: absolute;
+  top: 200px;
+  left: 30%;
+  border: 1px solid black;
+  background-color: #F6F6F6;
+  width: 35em;
+}
+
+#resource_settings_form label {
+  width: 15em;
+}
+
+#msg_dialog { 
+  z-index: 10;
+  position: absolute;
+  top: 75px;
+  left: 175px;
+  border: 1px solid black;
+  background-color: #F6F6F6;
+  width: 30em;
+}
+
+#map_problems_dialog { 
+  z-index: 10;
+  position: absolute;
+  top: 75px;
+  left: 175px;
+  border: 1px solid black;
+  background-color: #F6F6F6;
+  width: 52em;
+}
+
+
+#remove_mapping_dialog .gwt-Label {
+  padding: 10px;
+}
+
+#confirm_dialog .gwt-Label {
+  padding: 10px;
+}
+
+#msg_dialog .gwt-Label {
+  padding: 10px;
+}
+
+
+#map-grid .noResultsFound td {
+    background-color: #ECE0C4;
+}
+
+.add_mapping_truncate_text {
+	width: 15em;
+	overflow: hidden;
+	text-overflow: ellipsis; /*Does not work in Firefox*/
+}
+
+.add_mapping_label {
+	padding: 5px 10px;
+	vertical-align: top;
+} 
+
+.group-label {
+  font-weight: bold;
+ }
+
+.instructions {
+  color: #4d6d8b;
+  font-size: 1em
+}
+
+.problemsGrid {
+  display: block;
+  z-index: 10;
+  margin: 10px;
+  background-color: #ffffff;
+  border-left: 1px solid #999999;
+  border-right: 1px solid #999999;    
+  border-bottom: 1px solid #999999;    
+  border-top: 1px solid #999999;        
+  width: 45em;
+  height: 18em;
+  overflow: auto;
+}
+
+#view_refs_dialog { 
+  z-index: 10;
+  position: absolute;
+  top: 75px;
+  left: 175px;
+  border: 1px solid black;
+  background-color: #F6F6F6;
+  width: 50em;
+}
+
+.viewRefsGrid {
+  display: block;
+  z-index: 10;
+  margin: 10px;
+  background-color: #ffffff;
+  border-left: 1px solid #999999;
+  border-right: 1px solid #999999;    
+  border-bottom: 1px solid #999999;    
+  border-top: 1px solid #999999;
+  height: 15em;
+  width: 47em;
+  overflow: auto;
+}
+
+.problems-tab-panel {
+    display: block;
+    z-index: 9;
+    margin: 10px;
+  background-color: #F6f6f6;
+} 
+
+.toolbar-item-normal {
+    background: #f6f6f6;
+        color: #000000;    
+}
+
+.toolbar-item-highlighted {
+    background: #92c1f0;
+    color: #ffffff;    
+}
+
+.toolbar-item-disabled {
+    color: #999999;
+}
+
+
+#auth-grid table tr {
+    background-color: #E3E5E2;
+}
+
+tr.rowFormatterOdd td.vault_row_selected, tr.rowFormatterEven td.vault_row_selected{
+  background-color: #ECE0C4;
+}
+
+tr.rowFormatterOdd td.vault_row_highlight, tr.rowFormatterEven td.vault_row_highlight{
+  background-color: #e6eae5;
+}
+
+
+tr.rowFormatterOdd td.map_row_selected, tr.rowFormatterEven td.map_row_selected{
+  background-color: #d1ba85;
+}
+
+tr.rowFormatterOdd td.map_row_highlight, tr.rowFormatterEven td.map_row_highlight {
+  background-color: #fdf0d2;
+}
+
+
+tr.rowFormatterOdd td.other_row_selected, tr.rowFormatterEven td.other_row_selected{
+  background-color: #c7c7c7;
+}
+
+tr.rowFormatterOdd td.other_row_highlight, tr.rowFormatterEven td.other_row_highlight {
+  background-color: #fefffd;
+}
+
+
+.padded-message {
+  padding: 10px;
+}
+
+.padded-left-message {
+  padding: 0px 0px 0px 10px;
+}
+
+.toolitem {
+  display: inline;
+  padding: 2px 4px 2px 4px;
+}
+
+.inline-label {
+  display: inline;
+}
+
+a { color: #1C5894; text-decoration: none }
+
+.detailsArea {
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  width: 30em;
+  height: 15em; 
+}
+
+.drag_panel {
+  background-color: yellow;
+  border-right:2px solid #999999;
+  overflow:auto;
+  position:absolute;
+  width:200;
+  height:200;  
+  z-index: 999;
+}
+
+#dragNote {
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0,0,0, 0.2);
+  font-weight: bold;
+  font-size: 13px;
+  position: absolute;
+  padding: 2px 5px 2px 18px;
+  z-index: 10;
+}
+
+.drag_good {
+  background-image: url('images/drag_good.png');
+  background-repeat: no-repeat;
+  background-position: 2px 2px;
+}
+
+.drag_bad {
+  background-image: url('images/drag_bad.png');
+  background-repeat: no-repeat;
+  background-position: 2px 2px;
+}
+ 
+.default_pointer_style {
+  cursor: default;
+}
+
+.language_not_found_button_panel {
+  height: 5em; 
+  overflow: auto; 
+}
+
+#versioninfo {
+  background-color:#F6F6F6;
+  padding: 16px 16px 40px 16px;
+  font-weight: normal;
+  font-size: 0.8em;
+  -moz-border-radius: 11px;
+  -khtml-border-radius: 11px;
+  -webkit-border-radius: 11px;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  -moz-box-shadow: rgba(200,200,200,1) 0 4px 18px;
+  -webkit-box-shadow: rgba(200,200,200,1) 0 4px 18px;
+  -khtml-box-shadow: rgba(200,200,200,1) 0 4px 18px;
+  box-shadow: rgba(200,200,200,1) 0 4px 18px;
+  width: 50em;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  
+}
+
+#versioninfo h1 {
+  color: black;
+}
+
+#mapping_summary_dialog { 
+  z-index: 10;
+  position: absolute;
+  top: 75px;
+  left: 175px;
+  border: 1px solid black;
+  background-color: #F6F6F6;
+  width: 37em;
+}
+
+#synchronize_button {
+  margin: 0px 0px 0px 10px;
+}
+
+.summary_dialog_title {
+  margin: 0px 10px;
+}
+
+.summary_dialog_list {
+  display: block;
+  z-index: 10;
+  margin: 5px 10px 15px;
+  background-color: #ffffff;
+  border-left: 1px solid #999999;
+  border-right: 1px solid #999999;    
+  border-bottom: 1px solid #999999;    
+  border-top: 1px solid #999999;
+  height: 10em;
+  width: 35em;
+  overflow: auto;
+}
+
+.smallnote {
+  font-size: 9px;
+  color: #4D6D8B;
+}

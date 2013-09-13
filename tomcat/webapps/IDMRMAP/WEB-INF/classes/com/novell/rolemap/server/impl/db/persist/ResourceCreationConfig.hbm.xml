@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+ <class name="com.novell.rolemap.server.impl.db.persist.ResourceCreationConfig" table="resourceCreationConfig">
+ 	 <id name="id" column="resourceconfig_id">
+ 	 	<generator class="native"/>
+ 	 </id>
+ 	 <property name="host" column="host" type="java.lang.String" not-null="true"/>
+ 	 <property name="driver" column="driver" type="java.lang.String" not-null="true"/>
+ 	 <property name="logicalSystem" column="logical_system" type="java.lang.String" not-null="true"/>
+	 <property name="useSystemNamePrefix" column="use_system_name_prefix" type="java.lang.Boolean"/>
+	 <property name="useDriverNamePrefix" column="use_driver_name_prefix" type="java.lang.Boolean"/>
+	 <property name="prefixDelimiter" column="prefix_delimiter" type="java.lang.String"/>
+	 <property name="resourceCategory" column="resource_category" type="java.lang.String"/>
+ </class> 
+</hibernate-mapping>

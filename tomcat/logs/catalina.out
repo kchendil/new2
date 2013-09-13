@@ -1,0 +1,369 @@
+Jul 22, 2013 4:08:24 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /root/idm/jre/lib/i386/client:/root/idm/jre/lib/i386:/root/idm/jre/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib
+Jul 22, 2013 4:08:24 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Jul 22, 2013 4:08:24 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 4896 ms
+Jul 22, 2013 4:08:24 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 22, 2013 4:08:24 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.18
+Jul 22, 2013 4:08:24 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive IDMRMAP.war
+In constructor if com.novell.soa.logging.impl.log4j.Log4jManager
+Initializing Novell Audit...
+Jul 22, 2013 4:08:39 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Jul 22, 2013 4:08:39 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 15345 ms
+CACHE OUTPUT>MonitorCache processed: 68
+CACHE OUTPUT>MonitorCache processed: 1
+CACHE ERROR>java.io.EOFException
+CACHE ERROR>	at java.io.DataInputStream.readInt(Unknown Source)
+CACHE ERROR>	at com.novell.naudit.lcache.ClientConnection.run(ClientConnection.java:104)
+Jul 22, 2013 6:21:08 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Jul 22, 2013 6:21:09 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jul 22, 2013 6:21:13 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081
+Jul 22, 2013 10:49:01 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /root/idm/jre/lib/i386/client:/root/idm/jre/lib/i386:/root/idm/jre/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib
+Jul 22, 2013 10:49:02 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Jul 22, 2013 10:49:02 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3516 ms
+Jul 22, 2013 10:49:02 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 22, 2013 10:49:02 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.18
+Jul 22, 2013 10:49:02 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive IDMRMAP.war
+In constructor if com.novell.soa.logging.impl.log4j.Log4jManager
+Initializing Novell Audit...
+Jul 22, 2013 10:49:25 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Jul 22, 2013 10:49:25 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 23487 ms
+Jul 22, 2013 10:56:37 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Jul 22, 2013 10:56:38 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jul 22, 2013 10:56:39 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081
+Jul 23, 2013 1:11:24 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /root/idm/jre/lib/i386/client:/root/idm/jre/lib/i386:/root/idm/jre/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib
+Jul 23, 2013 1:11:24 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Jul 23, 2013 1:11:24 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3259 ms
+Jul 23, 2013 1:11:25 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 23, 2013 1:11:25 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.18
+Jul 23, 2013 1:11:25 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive IDMRMAP.war
+In constructor if com.novell.soa.logging.impl.log4j.Log4jManager
+Initializing Novell Audit...
+Jul 23, 2013 1:11:54 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Jul 23, 2013 1:11:54 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 30112 ms
+CACHE ERROR>java.io.EOFException
+CACHE ERROR>	at java.io.DataInputStream.readInt(Unknown Source)
+CACHE ERROR>	at com.novell.naudit.lcache.ClientConnection.run(ClientConnection.java:104)
+Jul 23, 2013 1:35:51 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Jul 23, 2013 1:35:52 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jul 23, 2013 1:35:56 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081
+Jul 31, 2013 2:17:24 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /root/idm/jre/lib/i386/client:/root/idm/jre/lib/i386:/root/idm/jre/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib
+Jul 31, 2013 2:17:25 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Jul 31, 2013 2:17:25 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2107 ms
+Jul 31, 2013 2:17:25 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 31, 2013 2:17:25 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.18
+Jul 31, 2013 2:17:25 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive IDMRMAP.war
+In constructor if com.novell.soa.logging.impl.log4j.Log4jManager
+Initializing Novell Audit...
+Jul 31, 2013 2:17:48 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Jul 31, 2013 2:17:48 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 23669 ms
+CACHE ERROR>java.io.EOFException
+CACHE ERROR>	at java.io.DataInputStream.readInt(Unknown Source)
+CACHE ERROR>	at com.novell.naudit.lcache.ClientConnection.run(ClientConnection.java:104)
+Jul 31, 2013 2:53:24 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Jul 31, 2013 2:53:25 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jul 31, 2013 2:53:26 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081
+Aug 13, 2013 8:58:15 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /root/idm/jre/lib/i386/client:/root/idm/jre/lib/i386:/root/idm/jre/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib
+Aug 13, 2013 8:58:16 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Aug 13, 2013 8:58:16 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3845 ms
+Aug 13, 2013 8:58:16 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Aug 13, 2013 8:58:16 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.18
+Aug 13, 2013 8:58:16 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive IDMRMAP.war
+In constructor if com.novell.soa.logging.impl.log4j.Log4jManager
+Initializing Novell Audit...
+Aug 13, 2013 8:58:42 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Aug 13, 2013 8:58:42 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 25970 ms
+CACHE ERROR>java.io.EOFException
+CACHE ERROR>	at java.io.DataInputStream.readInt(Unknown Source)
+CACHE ERROR>	at com.novell.naudit.lcache.ClientConnection.run(ClientConnection.java:104)
+CACHE ERROR>java.io.EOFException
+CACHE ERROR>	at java.io.DataInputStream.readInt(Unknown Source)
+CACHE ERROR>	at com.novell.naudit.lcache.ClientConnection.run(ClientConnection.java:104)
+Aug 13, 2013 10:27:34 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Aug 13, 2013 10:27:35 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Aug 13, 2013 10:27:38 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081
+Aug 13, 2013 11:37:19 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /root/idm/jre/lib/i386/client:/root/idm/jre/lib/i386:/root/idm/jre/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib
+Aug 13, 2013 11:37:21 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Aug 13, 2013 11:37:21 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 4818 ms
+Aug 13, 2013 11:37:21 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Aug 13, 2013 11:37:21 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.18
+Aug 13, 2013 11:37:21 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive IDMRMAP.war
+In constructor if com.novell.soa.logging.impl.log4j.Log4jManager
+Initializing Novell Audit...
+Aug 13, 2013 11:37:45 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Aug 13, 2013 11:37:45 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 24434 ms
+CACHE ERROR>java.io.EOFException
+CACHE ERROR>	at java.io.DataInputStream.readInt(Unknown Source)
+CACHE ERROR>	at com.novell.naudit.lcache.ClientConnection.run(ClientConnection.java:104)
+CACHE ERROR>java.io.EOFException
+CACHE ERROR>	at java.io.DataInputStream.readInt(Unknown Source)
+CACHE ERROR>	at com.novell.naudit.lcache.ClientConnection.run(ClientConnection.java:104)
+Aug 13, 2013 12:46:15 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Aug 13, 2013 12:46:16 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Aug 13, 2013 12:46:19 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081
+Aug 13, 2013 1:43:36 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /root/idm/jre/lib/i386/client:/root/idm/jre/lib/i386:/root/idm/jre/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib
+Aug 13, 2013 1:43:37 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Aug 13, 2013 1:43:37 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2133 ms
+Aug 13, 2013 1:43:37 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Aug 13, 2013 1:43:37 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.18
+Aug 13, 2013 1:43:37 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive IDMRMAP.war
+In constructor if com.novell.soa.logging.impl.log4j.Log4jManager
+Initializing Novell Audit...
+Aug 13, 2013 1:44:03 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Aug 13, 2013 1:44:03 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 26510 ms
+CACHE ERROR>java.io.EOFException
+CACHE ERROR>	at java.io.DataInputStream.readInt(Unknown Source)
+CACHE ERROR>	at com.novell.naudit.lcache.ClientConnection.run(ClientConnection.java:104)
+CACHE ERROR>java.io.EOFException
+CACHE ERROR>	at java.io.DataInputStream.readInt(Unknown Source)
+CACHE ERROR>	at com.novell.naudit.lcache.ClientConnection.run(ClientConnection.java:104)
+CACHE ERROR>java.io.EOFException
+CACHE ERROR>	at java.io.DataInputStream.readInt(Unknown Source)
+CACHE ERROR>	at com.novell.naudit.lcache.ClientConnection.run(ClientConnection.java:104)
+Aug 13, 2013 3:11:36 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Aug 13, 2013 3:11:37 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Aug 13, 2013 3:11:38 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081
+Aug 17, 2013 6:57:16 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /root/idm/jre/lib/i386/client:/root/idm/jre/lib/i386:/root/idm/jre/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib
+Aug 17, 2013 6:57:16 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Aug 17, 2013 6:57:16 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2264 ms
+Aug 17, 2013 6:57:17 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Aug 17, 2013 6:57:17 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.18
+Aug 17, 2013 6:57:17 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive IDMRMAP.war
+In constructor if com.novell.soa.logging.impl.log4j.Log4jManager
+Initializing Novell Audit...
+Aug 17, 2013 6:57:39 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Aug 17, 2013 6:57:39 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 22308 ms
+CACHE ERROR>java.io.EOFException
+CACHE ERROR>	at java.io.DataInputStream.readInt(Unknown Source)
+CACHE ERROR>	at com.novell.naudit.lcache.ClientConnection.run(ClientConnection.java:104)
+Aug 17, 2013 7:12:01 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Aug 17, 2013 7:12:02 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Aug 17, 2013 7:12:02 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081
+Sep 11, 2013 5:31:44 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /root/idm/jre/lib/i386/client:/root/idm/jre/lib/i386:/root/idm/jre/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib
+Sep 11, 2013 5:31:45 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Sep 11, 2013 5:31:45 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3069 ms
+Sep 11, 2013 5:31:45 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Sep 11, 2013 5:31:45 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.18
+Sep 11, 2013 5:31:45 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive IDMRMAP.war
+In constructor if com.novell.soa.logging.impl.log4j.Log4jManager
+Initializing Novell Audit...
+Sep 11, 2013 5:32:10 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Sep 11, 2013 5:32:10 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 25400 ms
+CACHE ERROR>java.io.EOFException
+CACHE ERROR>	at java.io.DataInputStream.readInt(Unknown Source)
+CACHE ERROR>	at com.novell.naudit.lcache.ClientConnection.run(ClientConnection.java:104)
+CACHE ERROR>java.io.EOFException
+CACHE ERROR>	at java.io.DataInputStream.readInt(Unknown Source)
+CACHE ERROR>	at com.novell.naudit.lcache.ClientConnection.run(ClientConnection.java:104)
+CACHE ERROR>java.io.EOFException
+CACHE ERROR>	at java.io.DataInputStream.readInt(Unknown Source)
+CACHE ERROR>	at com.novell.naudit.lcache.ClientConnection.run(ClientConnection.java:104)
+Sep 11, 2013 7:53:48 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Sep 11, 2013 7:53:50 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Sep 11, 2013 7:53:54 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081
+Sep 11, 2013 8:25:59 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Sep 11, 2013 8:25:59 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Sep 11, 2013 8:25:59 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3294 ms
+Sep 11, 2013 8:26:00 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Sep 11, 2013 8:26:00 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.18
+Sep 11, 2013 8:26:00 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive IDMRMAP.war
+In constructor if com.novell.soa.logging.impl.log4j.Log4jManager
+Initializing Novell Audit...
+Sep 11, 2013 8:26:25 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Sep 11, 2013 8:26:25 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 25668 ms
+Sep 11, 2013 8:47:26 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Sep 11, 2013 8:47:27 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Sep 11, 2013 8:47:29 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081
+Sep 12, 2013 2:56:51 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Sep 12, 2013 2:56:51 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Sep 12, 2013 2:56:51 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 4224 ms
+Sep 12, 2013 2:56:52 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Sep 12, 2013 2:56:52 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.18
+Sep 12, 2013 2:56:52 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive IDMRMAP.war
+In constructor if com.novell.soa.logging.impl.log4j.Log4jManager
+Initializing Novell Audit...
+Sep 12, 2013 2:57:21 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Sep 12, 2013 2:57:21 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 29871 ms
+CACHE ERROR>java.io.EOFException
+CACHE ERROR>	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+CACHE ERROR>	at com.novell.naudit.lcache.ClientConnection.run(ClientConnection.java:104)
+CACHE ERROR>java.io.EOFException
+CACHE ERROR>	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+CACHE ERROR>	at com.novell.naudit.lcache.ClientConnection.run(ClientConnection.java:104)
+CACHE ERROR>java.io.EOFException
+CACHE ERROR>	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+CACHE ERROR>	at com.novell.naudit.lcache.ClientConnection.run(ClientConnection.java:104)
+CACHE ERROR>java.io.EOFException
+CACHE ERROR>	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+CACHE ERROR>	at com.novell.naudit.lcache.ClientConnection.run(ClientConnection.java:104)
+Sep 12, 2013 6:40:08 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Sep 12, 2013 6:40:09 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Sep 12, 2013 6:40:26 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081
+Sep 13, 2013 1:53:26 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Sep 13, 2013 1:53:27 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Sep 13, 2013 1:53:27 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 4470 ms
+Sep 13, 2013 1:53:27 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Sep 13, 2013 1:53:27 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.18
+Sep 13, 2013 1:53:28 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive IDMRMAP.war
+In constructor if com.novell.soa.logging.impl.log4j.Log4jManager
+Initializing Novell Audit...
+Sep 13, 2013 1:53:52 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Sep 13, 2013 1:53:52 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 25224 ms
+CACHE OUTPUT>MonitorCache processed: 2
+CACHE ERROR>java.io.EOFException
+CACHE ERROR>	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+CACHE ERROR>	at com.novell.naudit.lcache.ClientConnection.run(ClientConnection.java:104)
+CACHE ERROR>java.io.EOFException
+CACHE ERROR>	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+CACHE ERROR>	at com.novell.naudit.lcache.ClientConnection.run(ClientConnection.java:104)
+Sep 13, 2013 3:23:52 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Sep 13, 2013 3:23:53 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Sep 13, 2013 3:24:02 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081
+Sep 13, 2013 4:43:21 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Sep 13, 2013 4:43:22 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Sep 13, 2013 4:43:22 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 4825 ms
+Sep 13, 2013 4:43:22 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Sep 13, 2013 4:43:22 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.18
+Sep 13, 2013 4:43:22 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive IDMRMAP.war
+In constructor if com.novell.soa.logging.impl.log4j.Log4jManager
+Initializing Novell Audit...
+Sep 13, 2013 4:43:49 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Sep 13, 2013 4:43:49 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 27891 ms

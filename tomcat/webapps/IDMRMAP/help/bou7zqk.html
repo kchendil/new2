@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- saved from url=(0014)about:internet -->
+<html xml:lang="en" lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en" />
+<meta name="Generator" content="Novell Documentation" />
+<meta name="Generation-Date" content="Tuesday, June 29, 2010 13:52" />
+<meta name="Content-Date" content="Mon, 29 Jun 2010 12:00:00 GMT" />
+<meta name="Copyright" content="Copyright Novell, Inc. 2010" />
+
+<style type="text/css">
+  @import url(ui/styles.css);
+</style>
+
+<title>Issues while Starting or Stopping Role Mapping Administrator</title>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+  var thisId = "bou7zqk";
+  var parentId = "biru1li";
+//--><!]]>
+</script>
+<script type="text/javascript" src="ui/config.js"></script>
+<script type="text/javascript" src="ui/resource.js"></script>
+<script type="text/javascript" src="ui/topic.js"></script>
+</head>
+
+<body>
+
+<noscript>
+  <div class='nav'>
+    <a id='tocref' href='bookinfo.html' class='nav'><img src='ui/images/root2.gif' alt='Table of Contents' title='Table of Contents' />Table of Contents</a>
+  </div>
+</noscript>
+
+<div class='nav' id='topnav'>
+  <a href="biru1li.html" class="nav"><img src="ui/images/prev.png" alt="previous" title="previous" />previous</a>
+  <img src="ui/images/virt_dot-line.gif" alt="" />
+  <a href="bou8jo3.html" class="nav">&nbsp;next<img src="ui/images/next.png" alt="next" title="next" /></a>
+</div>
+
+
+<div class="sect1" id="bou7zqk">
+
+<h1 class="title"> Issues while Starting or Stopping Role Mapping Administrator </h1>
+
+<div class="itemizedlist">
+<ul class="listbullet">
+<li class="listitem">
+<p class="listitem">
+            <a href="bou7zqk.html#bou8h5x" class="xref">Tomcat Issues</a>
+          </p></li>
+<li class="listitem">
+<p class="listitem">
+            <a href="bou7zqk.html#bou8hfx" class="xref">Authentication Issues</a>
+          </p></li>
+<li class="listitem">
+<p class="listitem">
+            <a href="bou7zqk.html#bpwtq1g" class="xref">Role Mapping Administrator Accessibility Issues</a>
+          </p></li></ul></div>
+
+<div class="sect2" id="bou8h5x">
+
+<h2 class="title"> Tomcat Issues </h2>
+
+<div class="sect3" id="bouqyz4">
+
+<h3 class="title"> Problem</h3>
+
+<p class="para">A Tomcat port conflict error occurs when you are starting the Role Mapping Administrator.</p>
+<h4 class="bridgehead" id="bou7zxp"> Solution</h4>
+
+<p class="para">If you have the Role Mapping Administrator and the Roles Based Provisioning Module installed on the same server, the Tomcat shutdown ports conflict. To solve the problem:</p>
+<div class="procedure">
+<ol class="steps">
+<li class="step" id="bouqtt2">
+<p class="para">Stop Role Mapping Administrator.</p></li>
+<li class="step" id="bou8gbc">
+<p class="para">Edit the <span class="filename">/installation_directory/idmrmap/tomcat/conf/server.xml</span> file.</p></li>
+<li class="step" id="bou8geh">
+<p class="para">Find the line <span class="command">&lt;Server port=“8006” shutdown=“SHUTDOWN”&gt;</span>.</p></li>
+<li class="step" id="bou8glj">
+<p class="para">Change the port to another port that is not in use.</p></li>
+<li class="step" id="bou8gnn">
+<p class="para">Save the changes and restart the Role Mapping Administrator y using the following command from the <span class="filename">&lt;rma_install_path&gt;/rma/ </span>location.</p>
+<div class="itemizedlist">
+<ul class="listbullet">
+<li class="listitem">
+<div class="formalpara" id="bouqul8">
+                    <p class="title"><em class="title">Linux:</em>
+                    
+                      <span class="command">./start.sh</span>
+                    </p>
+                  </div>
+</li>
+<li class="listitem">
+<div class="formalpara" id="bouqusg">
+                    <p class="title"><em class="title">Windows:</em>
+                    
+                      <span class="command">start.bat</span>
+                    </p>
+                  </div>
+</li></ul></div>
+</li></ol>
+</div>
+
+<p class="para">Usage of ports in Role Mapping Administrator.</p>
+<div class="itemizedlist">
+<ul class="listbullet">
+<li class="listitem">
+<div class="formalpara" id="bouqw02">
+                <p class="title"><em class="title">8081:</em>
+                Used for HTTP access.</p>
+              </div>
+</li>
+<li class="listitem">
+<div class="formalpara" id="bouqw2y">
+                <p class="title"><em class="title">8443:</em>
+                Used for secure HTTP access.</p>
+              </div>
+</li>
+<li class="listitem">
+<div class="formalpara" id="bouqw4n">
+                <p class="title"><em class="title">8006:</em>
+                Used by the Tomcat application server.</p>
+              </div>
+</li></ul></div>
+
+</div>
+
+<div class="sect3" id="bour9ox">
+
+<h3 class="title"> Problem</h3>
+
+<p class="para">Role Mapping Administrator is not accessible when Tomcat is already installed in a system using port 8443.</p>
+<h4 class="bridgehead" id="boura1i"> Solution</h4>
+
+<p class="para">See the <span class="filename">catalina.out</span> file from the <span class="filename">&lt;rma_install_path&gt;/rma/tomcat/logs/</span> location to find <span class="command">java.net.BindException: Address already in use&lt;null&gt;:8080</span> error. To solve the problem:</p>
+<div class="procedure">
+<ol class="steps">
+<li class="step" id="bourbls">
+<p class="para">Stop Role Mapping Administrator.</p></li>
+<li class="step" id="bourbnr">
+<p class="para">Change the port. Refer to Section 3.3.1 Changing Port Number for more information.</p></li>
+<li class="step" id="bourcp6">
+<p class="para">Restart Role Mapping Administrator.</p></li></ol>
+</div>
+
+</div>
+
+</div>
+
+<div class="sect2" id="bou8hfx">
+
+<h2 class="title"> Authentication Issues</h2>
+
+<h3 class="bridgehead" id="bjshdmk"> Problem</h3>
+
+<p class="para">Failing to authenticate to the Role Mapping Administrator.</p>
+<h3 class="bridgehead" id="bjshe3p"> Solution</h3>
+
+<p class="para">Check the following items to correct the authentication problem. If the authentication issues continue, contact your system administrator.</p>
+<div class="itemizedlist">
+<ul class="listbullet">
+<li class="listitem">
+<p class="listitem">The password is not correct.</p></li>
+<li class="listitem">
+<p class="listitem">The username does not exist in the user store.</p></li>
+<li class="listitem">
+<p class="listitem">There are multiple user accounts matching the specified username. Use the distinguished name (DN) instead of the common name (CN).</p></li>
+<li class="listitem">
+<p class="listitem">There are network problems. The user’s credentials are verified against the user store through an LDAP connection.</p></li>
+<li class="listitem">
+<p class="listitem">The LDAP server is not communicating.</p></li>
+<li class="listitem">
+<p class="listitem">If the eDirectory connection is using SSL, the certificate might have expired. Check with your system administrator to confirm whether the eDirectory certificate is valid or has expired.</p></li>
+<li class="listitem">
+<p class="listitem">The user account you are using does not have sufficient rights in the Roles Based Provisioning Module. Check with your administrator to verify that you have sufficient rights to use the Role Mapping Administrator.</p></li></ul></div>
+
+</div>
+
+<div class="sect2" id="bpwtq1g">
+
+<h2 class="title"> Role Mapping Administrator Accessibility Issues</h2>
+
+<h3 class="bridgehead" id="bpwtra1"> Problem</h3>
+
+<p class="para">Cannot access Role Mapping Administrator after a successful installation. </p>
+<h3 class="bridgehead" id="bpwtrh0"> Solution</h3>
+
+<div class="procedure">
+<ol class="steps">
+<li class="step" id="bpwttsz">
+<p class="para">Start Role Mapping Administrator after installing it. </p></li>
+<li class="step" id="bpwtu73">
+<p class="para">Check the <span class="filename">&lt;rma_install_path&gt;/rma/tomcat/conf/logging.properties</span> file. Use a different port if the port is already in use.</p></li>
+<li class="step" id="bpwtumf">
+<p class="para">Stop Role Mapping Administrator.</p></li>
+<li class="step" id="bpwtuqo">
+<p class="para">Change the port to another port in the <span class="filename">&lt;rma_install_path&gt;/rma/tomcat/conf/server.xml</span> file.</p></li>
+<li class="step" id="bpwtv2i">
+<p class="para">Start Role Mapping Administrator.</p></li></ol>
+</div>
+
+</div>
+
+</div>
+
+<p class="trademark"> For trademark and copyright information, see <a href="legal.html">Legal Notices</a>.</p>
+
+<div class='nav' id='bottomnav'>
+  <a href="biru1li.html" class="nav"><img src="ui/images/prev.png" alt="previous" title="previous" />previous</a>
+  <img src="ui/images/virt_dot-line.gif" alt="" />
+  <a href="bou8jo3.html" class="nav">&nbsp;next<img src="ui/images/next.png" alt="next" title="next" /></a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1484 @@
+Reachable types computed on: Mon Jun 11 07:24:00 IST 2012
+com.google.gwt.i18n.client.impl.ConstantMap
+   Serialization status
+      Not serializable
+   Path
+      'com.google.gwt.i18n.client.impl.ConstantMap' is reachable as a subtype of type 'class java.util.HashMap<java.lang.String, java.lang.String>'
+      'java.util.HashMap<java.lang.String, java.lang.String>' is reachable from field 'm_roleCategories' of type 'com.novell.rolemap.client.ui.client.init.NewRoleInfo'
+      'com.novell.rolemap.client.ui.client.init.NewRoleInfo' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.google.gwt.user.client.rpc.IsSerializable[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.google.gwt.user.client.rpc.SerializableException
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.SerializableException' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.google.gwt.user.client.rpc.SerializableException[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.google.gwt.user.client.ui.MultiWordSuggestOracle.MultiWordSuggestion
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.ui.MultiWordSuggestOracle.MultiWordSuggestion' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.google.gwt.user.client.ui.MultiWordSuggestOracle.MultiWordSuggestion[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.ui.SuggestOracle.Suggestion' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<com.google.gwt.user.client.ui.SuggestOracle.Suggestion>' is reachable as a subtype of type 'interface java.util.Collection<? extends com.google.gwt.user.client.ui.SuggestOracle.Suggestion>'
+      'java.util.Collection<? extends com.google.gwt.user.client.ui.SuggestOracle.Suggestion>' is reachable from field 'suggestions' of type 'com.google.gwt.user.client.ui.SuggestOracle.Response'
+      'com.google.gwt.user.client.ui.SuggestOracle.Response' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.google.gwt.user.client.ui.SuggestOracle.Request
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.ui.SuggestOracle.Request' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.google.gwt.user.client.ui.SuggestOracle.Request[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.google.gwt.user.client.ui.SuggestOracle.Response
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.ui.SuggestOracle.Response' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.google.gwt.user.client.ui.SuggestOracle.Response[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.google.gwt.user.client.ui.SuggestOracle.Suggestion[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.ui.SuggestOracle.Suggestion' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<com.google.gwt.user.client.ui.SuggestOracle.Suggestion>' is reachable as a subtype of type 'interface java.util.Collection<? extends com.google.gwt.user.client.ui.SuggestOracle.Suggestion>'
+      'java.util.Collection<? extends com.google.gwt.user.client.ui.SuggestOracle.Suggestion>' is reachable from field 'suggestions' of type 'com.google.gwt.user.client.ui.SuggestOracle.Response'
+      'com.google.gwt.user.client.ui.SuggestOracle.Response' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.gwt.lib.client.widgets.table.DataRecord
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable as a subtype of type 'class com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.gwt.lib.client.widgets.table.DataRecord[]
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.UIRemoteException
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.UIRemoteException' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.UIRemoteException[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.config.EdirConfigModel
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.config.EdirConfigModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.config.EdirConfigModel[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.config.MappingColumnConfigModel
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.config.MappingColumnConfigModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.config.MappingColumnConfigModel[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.config.ResourceCreationConfigModel
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.config.ResourceCreationConfigModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.config.ResourceCreationConfigModel[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.config.VaultValue
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.config.VaultValue' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.config.VaultValue[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.grid.DataFilter
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.grid.DataFilter' is reachable as a supertype of type 'class com.novell.rolemap.client.ui.client.services.AuthorizationFilterModel'
+      'com.novell.rolemap.client.ui.client.services.AuthorizationFilterModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.grid.DataFilter[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.grid.DataResult
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.grid.DataResult' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.grid.DataResult[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.grid.DataStatus
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.grid.DataStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.grid.DataStatus'
+      'com.novell.rolemap.client.ui.client.grid.DataStatus' is reachable from field 'm_status' of type 'com.novell.rolemap.client.ui.client.grid.DataResult'
+      'com.novell.rolemap.client.ui.client.grid.DataResult' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.grid.DataStatus[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.grid.MapChangeInfo
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.grid.MapChangeInfo' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.grid.MapChangeInfo[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.init.DriverModel
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.init.DriverModel'
+      Type 'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable from array type 'com.novell.rolemap.client.ui.client.init.DriverModel[]'
+      'com.novell.rolemap.client.ui.client.init.DriverModel[]' is reachable from field 'm_drivers' of type 'com.novell.rolemap.client.ui.client.init.InitModel'
+      'com.novell.rolemap.client.ui.client.init.InitModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.init.DriverModel[]
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.init.DriverModel[]' is reachable from field 'm_drivers' of type 'com.novell.rolemap.client.ui.client.init.InitModel'
+      'com.novell.rolemap.client.ui.client.init.InitModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.init.EntitlementModel
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.init.EntitlementModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.init.EntitlementModel[]
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.init.EntitlementModel' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<com.novell.rolemap.client.ui.client.init.EntitlementModel>' is reachable as a subtype of type 'interface java.util.List<com.novell.rolemap.client.ui.client.init.EntitlementModel>'
+      'java.util.List<com.novell.rolemap.client.ui.client.init.EntitlementModel>' is reachable from field 'm_entitlements' of type 'com.novell.rolemap.client.ui.client.init.DriverModel'
+      'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.init.DriverModel'
+      Type 'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable from array type 'com.novell.rolemap.client.ui.client.init.DriverModel[]'
+      'com.novell.rolemap.client.ui.client.init.DriverModel[]' is reachable from field 'm_drivers' of type 'com.novell.rolemap.client.ui.client.init.InitModel'
+      'com.novell.rolemap.client.ui.client.init.InitModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.init.InitModel
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.init.InitModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.init.InitModel[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.init.LogicalSystemModel
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.init.LogicalSystemModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.init.LogicalSystemModel[]
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.init.LogicalSystemModel' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>' is reachable as a subtype of type 'interface java.util.List<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>'
+      'java.util.List<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>' is reachable from field 'm_logicalSystems' of type 'com.novell.rolemap.client.ui.client.init.DriverModel'
+      'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.init.DriverModel'
+      Type 'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable from array type 'com.novell.rolemap.client.ui.client.init.DriverModel[]'
+      'com.novell.rolemap.client.ui.client.init.DriverModel[]' is reachable from field 'm_drivers' of type 'com.novell.rolemap.client.ui.client.init.InitModel'
+      'com.novell.rolemap.client.ui.client.init.InitModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.init.NewRoleInfo
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.init.NewRoleInfo' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.init.NewRoleInfo[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.init.RoleInfo
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.init.RoleInfo' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.init.RoleInfo[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.init.RoleLevel
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.init.RoleLevel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.init.RoleLevel'
+      Type 'com.novell.rolemap.client.ui.client.init.RoleLevel' is reachable from array type 'com.novell.rolemap.client.ui.client.init.RoleLevel[]'
+      'com.novell.rolemap.client.ui.client.init.RoleLevel[]' is reachable from field 'm_roleLevels' of type 'com.novell.rolemap.client.ui.client.init.NewRoleInfo'
+      'com.novell.rolemap.client.ui.client.init.NewRoleInfo' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.init.RoleLevel[]
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.init.RoleLevel[]' is reachable from field 'm_roleLevels' of type 'com.novell.rolemap.client.ui.client.init.NewRoleInfo'
+      'com.novell.rolemap.client.ui.client.init.NewRoleInfo' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.init.User
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.init.User' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.init.User[]
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.init.User[]' is reachable from field 'm_owners' of type 'com.novell.rolemap.client.ui.client.init.RoleInfo'
+      'com.novell.rolemap.client.ui.client.init.RoleInfo' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.services.AuthorizationFilterModel
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.services.AuthorizationFilterModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.services.AuthorizationFilterModel[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.services.CodeMapModel
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.services.CodeMapModel[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.services.OperationStatus
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.services.OperationStatus[]
+   Serialization status
+      Instantiable
+   Path
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.services.QueryResultModel
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.services.QueryResultModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+com.novell.rolemap.client.ui.client.services.QueryResultModel[]
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.lang.Boolean
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.Boolean' is reachable as a subtype of type 'class java.lang.Boolean'
+      'java.lang.Boolean' is reachable from field 'm_useSystemNamePrefix' of type 'com.novell.rolemap.client.ui.client.config.ResourceCreationConfigModel'
+      'com.novell.rolemap.client.ui.client.config.ResourceCreationConfigModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.lang.Exception
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.RuntimeException
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.String
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.String' is reachable as a subtype of type 'class java.lang.String'
+      Started from 'java.lang.String'
+
+java.lang.String[]
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.String' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.lang.String>' is reachable as a subtype of type 'interface java.util.List<java.lang.String>'
+      'java.util.List<java.lang.String>' is reachable from field 'm_dataList' of type 'com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable as a subtype of type 'class com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.lang.Throwable
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Throwable' is reachable as a supertype of type 'class java.lang.Exception'
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.util.AbstractMap[]
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a subtype of type 'interface java.util.List<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.List<java.util.Map<java.lang.String, java.lang.String>>' is reachable from field 'entitlementParams' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.ArrayList<com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest>' is reachable as a subtype of type 'interface java.util.List<com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest>'
+      Started from 'java.util.List<com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest>'
+
+java.util.ArrayList<com.novell.rolemap.client.ui.client.services.OperationStatus>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<com.novell.rolemap.client.ui.client.services.OperationStatus>' is reachable as a subtype of type 'interface java.util.List<com.novell.rolemap.client.ui.client.services.OperationStatus>'
+      Started from 'java.util.List<com.novell.rolemap.client.ui.client.services.OperationStatus>'
+
+java.util.ArrayList<java.util.Map<java.lang.String, java.lang.String>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a subtype of type 'interface java.util.List<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.List<java.util.Map<java.lang.String, java.lang.String>>' is reachable from field 'entitlementParams' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.ArrayList<java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<java.lang.String>' is reachable as a subtype of type 'interface java.util.List<java.lang.String>'
+      'java.util.List<java.lang.String>' is reachable from field 'm_dataList' of type 'com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable as a subtype of type 'class com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.ArrayList<com.google.gwt.user.client.ui.SuggestOracle.Suggestion>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<com.google.gwt.user.client.ui.SuggestOracle.Suggestion>' is reachable as a subtype of type 'interface java.util.Collection<? extends com.google.gwt.user.client.ui.SuggestOracle.Suggestion>'
+      'java.util.Collection<? extends com.google.gwt.user.client.ui.SuggestOracle.Suggestion>' is reachable from field 'suggestions' of type 'com.google.gwt.user.client.ui.SuggestOracle.Response'
+      'com.google.gwt.user.client.ui.SuggestOracle.Response' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.ArrayList<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>' is reachable as a subtype of type 'interface java.util.List<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>'
+      'java.util.List<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>' is reachable from field 'm_logicalSystems' of type 'com.novell.rolemap.client.ui.client.init.DriverModel'
+      'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.init.DriverModel'
+      Type 'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable from array type 'com.novell.rolemap.client.ui.client.init.DriverModel[]'
+      'com.novell.rolemap.client.ui.client.init.DriverModel[]' is reachable from field 'm_drivers' of type 'com.novell.rolemap.client.ui.client.init.InitModel'
+      'com.novell.rolemap.client.ui.client.init.InitModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.ArrayList<com.novell.rolemap.client.ui.client.init.EntitlementModel>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<com.novell.rolemap.client.ui.client.init.EntitlementModel>' is reachable as a subtype of type 'interface java.util.List<com.novell.rolemap.client.ui.client.init.EntitlementModel>'
+      'java.util.List<com.novell.rolemap.client.ui.client.init.EntitlementModel>' is reachable from field 'm_entitlements' of type 'com.novell.rolemap.client.ui.client.init.DriverModel'
+      'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.init.DriverModel'
+      Type 'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable from array type 'com.novell.rolemap.client.ui.client.init.DriverModel[]'
+      'com.novell.rolemap.client.ui.client.init.DriverModel[]' is reachable from field 'm_drivers' of type 'com.novell.rolemap.client.ui.client.init.InitModel'
+      'com.novell.rolemap.client.ui.client.init.InitModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.Arrays.ArrayList<com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Arrays.ArrayList<com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest>' is reachable as a subtype of type 'interface java.util.List<com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest>'
+      Started from 'java.util.List<com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest>'
+
+java.util.Arrays.ArrayList<com.novell.rolemap.client.ui.client.services.OperationStatus>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Arrays.ArrayList<com.novell.rolemap.client.ui.client.services.OperationStatus>' is reachable as a subtype of type 'interface java.util.List<com.novell.rolemap.client.ui.client.services.OperationStatus>'
+      Started from 'java.util.List<com.novell.rolemap.client.ui.client.services.OperationStatus>'
+
+java.util.Arrays.ArrayList<java.util.Map<java.lang.String, java.lang.String>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Arrays.ArrayList<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a subtype of type 'interface java.util.List<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.List<java.util.Map<java.lang.String, java.lang.String>>' is reachable from field 'entitlementParams' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.Arrays.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Arrays.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.Arrays.ArrayList<java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Arrays.ArrayList<java.lang.String>' is reachable as a subtype of type 'interface java.util.List<java.lang.String>'
+      'java.util.List<java.lang.String>' is reachable from field 'm_dataList' of type 'com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable as a subtype of type 'class com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.Arrays.ArrayList<com.google.gwt.user.client.ui.SuggestOracle.Suggestion>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Arrays.ArrayList<com.google.gwt.user.client.ui.SuggestOracle.Suggestion>' is reachable as a subtype of type 'interface java.util.Collection<? extends com.google.gwt.user.client.ui.SuggestOracle.Suggestion>'
+      'java.util.Collection<? extends com.google.gwt.user.client.ui.SuggestOracle.Suggestion>' is reachable from field 'suggestions' of type 'com.google.gwt.user.client.ui.SuggestOracle.Response'
+      'com.google.gwt.user.client.ui.SuggestOracle.Response' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.Arrays.ArrayList<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Arrays.ArrayList<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>' is reachable as a subtype of type 'interface java.util.List<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>'
+      'java.util.List<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>' is reachable from field 'm_logicalSystems' of type 'com.novell.rolemap.client.ui.client.init.DriverModel'
+      'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.init.DriverModel'
+      Type 'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable from array type 'com.novell.rolemap.client.ui.client.init.DriverModel[]'
+      'com.novell.rolemap.client.ui.client.init.DriverModel[]' is reachable from field 'm_drivers' of type 'com.novell.rolemap.client.ui.client.init.InitModel'
+      'com.novell.rolemap.client.ui.client.init.InitModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.Arrays.ArrayList<com.novell.rolemap.client.ui.client.init.EntitlementModel>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Arrays.ArrayList<com.novell.rolemap.client.ui.client.init.EntitlementModel>' is reachable as a subtype of type 'interface java.util.List<com.novell.rolemap.client.ui.client.init.EntitlementModel>'
+      'java.util.List<com.novell.rolemap.client.ui.client.init.EntitlementModel>' is reachable from field 'm_entitlements' of type 'com.novell.rolemap.client.ui.client.init.DriverModel'
+      'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.init.DriverModel'
+      Type 'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable from array type 'com.novell.rolemap.client.ui.client.init.DriverModel[]'
+      'com.novell.rolemap.client.ui.client.init.DriverModel[]' is reachable from field 'm_drivers' of type 'com.novell.rolemap.client.ui.client.init.InitModel'
+      'com.novell.rolemap.client.ui.client.init.InitModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.HashMap<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.HashMap<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable as a supertype of type 'class java.util.LinkedHashMap<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>'
+      'java.util.LinkedHashMap<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>'
+      'java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable from field 'mappingList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.HashMap<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.HashMap<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a supertype of type 'class java.util.LinkedHashMap<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.LinkedHashMap<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from type argument 1 of type 'java.util.LinkedHashMap<K, V>'
+      'java.util.LinkedHashMap<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>'
+      'java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable from field 'mappingList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.HashMap<java.lang.String, java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.HashMap<java.lang.String, java.lang.String>' is reachable as a subtype of type 'class java.util.HashMap<java.lang.String, java.lang.String>'
+      'java.util.HashMap<java.lang.String, java.lang.String>' is reachable from field 'm_roleCategories' of type 'com.novell.rolemap.client.ui.client.init.NewRoleInfo'
+      'com.novell.rolemap.client.ui.client.init.NewRoleInfo' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.HashMap<java.lang.String, java.util.List<java.lang.String>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.HashMap<java.lang.String, java.util.List<java.lang.String>>' is reachable as a subtype of type 'class java.util.HashMap<java.lang.String, java.util.List<java.lang.String>>'
+      'java.util.HashMap<java.lang.String, java.util.List<java.lang.String>>' is reachable from field 'm_loadedEntitlements' of type 'com.novell.rolemap.client.ui.client.init.LogicalSystemModel'
+      'com.novell.rolemap.client.ui.client.init.LogicalSystemModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.HashMap[]
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a subtype of type 'interface java.util.List<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.List<java.util.Map<java.lang.String, java.lang.String>>' is reachable from field 'entitlementParams' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.HashSet<com.google.gwt.user.client.ui.SuggestOracle.Suggestion>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.HashSet<com.google.gwt.user.client.ui.SuggestOracle.Suggestion>' is reachable as a supertype of type 'class java.util.LinkedHashSet<com.google.gwt.user.client.ui.SuggestOracle.Suggestion>'
+      'java.util.LinkedHashSet<com.google.gwt.user.client.ui.SuggestOracle.Suggestion>' is reachable as a subtype of type 'interface java.util.Collection<? extends com.google.gwt.user.client.ui.SuggestOracle.Suggestion>'
+      'java.util.Collection<? extends com.google.gwt.user.client.ui.SuggestOracle.Suggestion>' is reachable from field 'suggestions' of type 'com.google.gwt.user.client.ui.SuggestOracle.Response'
+      'com.google.gwt.user.client.ui.SuggestOracle.Response' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.IdentityHashMap<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.IdentityHashMap<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>'
+      'java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable from field 'mappingList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.IdentityHashMap<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.IdentityHashMap<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from type argument 1 of type 'java.util.LinkedHashMap<K, V>'
+      'java.util.LinkedHashMap<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>'
+      'java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable from field 'mappingList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.IdentityHashMap<java.lang.String, java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.IdentityHashMap<java.lang.String, java.lang.String>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.lang.String>'
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from field 'm_fieldData' of type 'com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable as a subtype of type 'class com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.IdentityHashMap[]
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a subtype of type 'interface java.util.List<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.List<java.util.Map<java.lang.String, java.lang.String>>' is reachable from field 'entitlementParams' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.LinkedHashMap<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedHashMap<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from type argument 1 of type 'java.util.LinkedHashMap<K, V>'
+      'java.util.LinkedHashMap<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>'
+      'java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable from field 'mappingList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.LinkedHashMap<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedHashMap<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>'
+      'java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable from field 'mappingList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.LinkedHashMap<java.lang.String, java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedHashMap<java.lang.String, java.lang.String>' is reachable as a subtype of type 'class java.util.HashMap<java.lang.String, java.lang.String>'
+      'java.util.HashMap<java.lang.String, java.lang.String>' is reachable from field 'm_roleCategories' of type 'com.novell.rolemap.client.ui.client.init.NewRoleInfo'
+      'com.novell.rolemap.client.ui.client.init.NewRoleInfo' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.LinkedHashMap<java.lang.String, java.util.List<java.lang.String>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedHashMap<java.lang.String, java.util.List<java.lang.String>>' is reachable as a subtype of type 'class java.util.HashMap<java.lang.String, java.util.List<java.lang.String>>'
+      'java.util.HashMap<java.lang.String, java.util.List<java.lang.String>>' is reachable from field 'm_loadedEntitlements' of type 'com.novell.rolemap.client.ui.client.init.LogicalSystemModel'
+      'com.novell.rolemap.client.ui.client.init.LogicalSystemModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.LinkedHashMap[]
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a subtype of type 'interface java.util.List<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.List<java.util.Map<java.lang.String, java.lang.String>>' is reachable from field 'entitlementParams' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.LinkedHashSet<com.google.gwt.user.client.ui.SuggestOracle.Suggestion>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedHashSet<com.google.gwt.user.client.ui.SuggestOracle.Suggestion>' is reachable as a subtype of type 'interface java.util.Collection<? extends com.google.gwt.user.client.ui.SuggestOracle.Suggestion>'
+      'java.util.Collection<? extends com.google.gwt.user.client.ui.SuggestOracle.Suggestion>' is reachable from field 'suggestions' of type 'com.google.gwt.user.client.ui.SuggestOracle.Response'
+      'com.google.gwt.user.client.ui.SuggestOracle.Response' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.LinkedList<com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedList<com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest>' is reachable as a subtype of type 'interface java.util.List<com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest>'
+      Started from 'java.util.List<com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest>'
+
+java.util.LinkedList<com.novell.rolemap.client.ui.client.services.OperationStatus>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedList<com.novell.rolemap.client.ui.client.services.OperationStatus>' is reachable as a subtype of type 'interface java.util.List<com.novell.rolemap.client.ui.client.services.OperationStatus>'
+      Started from 'java.util.List<com.novell.rolemap.client.ui.client.services.OperationStatus>'
+
+java.util.LinkedList<java.util.Map<java.lang.String, java.lang.String>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedList<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a subtype of type 'interface java.util.List<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.List<java.util.Map<java.lang.String, java.lang.String>>' is reachable from field 'entitlementParams' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.LinkedList<com.novell.gwt.lib.client.widgets.table.DataRecord>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.LinkedList<java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedList<java.lang.String>' is reachable as a subtype of type 'interface java.util.List<java.lang.String>'
+      'java.util.List<java.lang.String>' is reachable from field 'm_dataList' of type 'com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable as a subtype of type 'class com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.LinkedList<com.google.gwt.user.client.ui.SuggestOracle.Suggestion>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedList<com.google.gwt.user.client.ui.SuggestOracle.Suggestion>' is reachable as a subtype of type 'interface java.util.Collection<? extends com.google.gwt.user.client.ui.SuggestOracle.Suggestion>'
+      'java.util.Collection<? extends com.google.gwt.user.client.ui.SuggestOracle.Suggestion>' is reachable from field 'suggestions' of type 'com.google.gwt.user.client.ui.SuggestOracle.Response'
+      'com.google.gwt.user.client.ui.SuggestOracle.Response' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.LinkedList<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedList<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>' is reachable as a subtype of type 'interface java.util.List<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>'
+      'java.util.List<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>' is reachable from field 'm_logicalSystems' of type 'com.novell.rolemap.client.ui.client.init.DriverModel'
+      'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.init.DriverModel'
+      Type 'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable from array type 'com.novell.rolemap.client.ui.client.init.DriverModel[]'
+      'com.novell.rolemap.client.ui.client.init.DriverModel[]' is reachable from field 'm_drivers' of type 'com.novell.rolemap.client.ui.client.init.InitModel'
+      'com.novell.rolemap.client.ui.client.init.InitModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.LinkedList<com.novell.rolemap.client.ui.client.init.EntitlementModel>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedList<com.novell.rolemap.client.ui.client.init.EntitlementModel>' is reachable as a subtype of type 'interface java.util.List<com.novell.rolemap.client.ui.client.init.EntitlementModel>'
+      'java.util.List<com.novell.rolemap.client.ui.client.init.EntitlementModel>' is reachable from field 'm_entitlements' of type 'com.novell.rolemap.client.ui.client.init.DriverModel'
+      'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.init.DriverModel'
+      Type 'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable from array type 'com.novell.rolemap.client.ui.client.init.DriverModel[]'
+      'com.novell.rolemap.client.ui.client.init.DriverModel[]' is reachable from field 'm_drivers' of type 'com.novell.rolemap.client.ui.client.init.InitModel'
+      'com.novell.rolemap.client.ui.client.init.InitModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.Map[]
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a subtype of type 'interface java.util.List<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.List<java.util.Map<java.lang.String, java.lang.String>>' is reachable from field 'entitlementParams' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.Map<java.lang.String, java.lang.String>[]
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a subtype of type 'interface java.util.List<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.List<java.util.Map<java.lang.String, java.lang.String>>' is reachable from field 'entitlementParams' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.Stack<com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Stack<com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest>' is reachable as a subtype of type 'interface java.util.List<com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest>'
+      Started from 'java.util.List<com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest>'
+
+java.util.Stack<com.novell.rolemap.client.ui.client.services.OperationStatus>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Stack<com.novell.rolemap.client.ui.client.services.OperationStatus>' is reachable as a subtype of type 'interface java.util.List<com.novell.rolemap.client.ui.client.services.OperationStatus>'
+      Started from 'java.util.List<com.novell.rolemap.client.ui.client.services.OperationStatus>'
+
+java.util.Stack<java.util.Map<java.lang.String, java.lang.String>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Stack<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a subtype of type 'interface java.util.List<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.List<java.util.Map<java.lang.String, java.lang.String>>' is reachable from field 'entitlementParams' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.Stack<java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Stack<java.lang.String>' is reachable as a subtype of type 'interface java.util.List<java.lang.String>'
+      'java.util.List<java.lang.String>' is reachable from field 'm_dataList' of type 'com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable as a subtype of type 'class com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.Stack<com.novell.gwt.lib.client.widgets.table.DataRecord>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Stack<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.Stack<com.google.gwt.user.client.ui.SuggestOracle.Suggestion>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Stack<com.google.gwt.user.client.ui.SuggestOracle.Suggestion>' is reachable as a subtype of type 'interface java.util.Collection<? extends com.google.gwt.user.client.ui.SuggestOracle.Suggestion>'
+      'java.util.Collection<? extends com.google.gwt.user.client.ui.SuggestOracle.Suggestion>' is reachable from field 'suggestions' of type 'com.google.gwt.user.client.ui.SuggestOracle.Response'
+      'com.google.gwt.user.client.ui.SuggestOracle.Response' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.Stack<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Stack<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>' is reachable as a subtype of type 'interface java.util.List<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>'
+      'java.util.List<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>' is reachable from field 'm_logicalSystems' of type 'com.novell.rolemap.client.ui.client.init.DriverModel'
+      'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.init.DriverModel'
+      Type 'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable from array type 'com.novell.rolemap.client.ui.client.init.DriverModel[]'
+      'com.novell.rolemap.client.ui.client.init.DriverModel[]' is reachable from field 'm_drivers' of type 'com.novell.rolemap.client.ui.client.init.InitModel'
+      'com.novell.rolemap.client.ui.client.init.InitModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.Stack<com.novell.rolemap.client.ui.client.init.EntitlementModel>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Stack<com.novell.rolemap.client.ui.client.init.EntitlementModel>' is reachable as a subtype of type 'interface java.util.List<com.novell.rolemap.client.ui.client.init.EntitlementModel>'
+      'java.util.List<com.novell.rolemap.client.ui.client.init.EntitlementModel>' is reachable from field 'm_entitlements' of type 'com.novell.rolemap.client.ui.client.init.DriverModel'
+      'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.init.DriverModel'
+      Type 'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable from array type 'com.novell.rolemap.client.ui.client.init.DriverModel[]'
+      'com.novell.rolemap.client.ui.client.init.DriverModel[]' is reachable from field 'm_drivers' of type 'com.novell.rolemap.client.ui.client.init.InitModel'
+      'com.novell.rolemap.client.ui.client.init.InitModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.Vector<com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Vector<com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest>' is reachable as a supertype of type 'class java.util.Stack<com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest>'
+      'java.util.Stack<com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest>' is reachable as a subtype of type 'interface java.util.List<com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest>'
+      Started from 'java.util.List<com.novell.rolemap.client.ui.client.services.LoadAuthorizationRequest>'
+
+java.util.Vector<com.novell.rolemap.client.ui.client.services.OperationStatus>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Vector<com.novell.rolemap.client.ui.client.services.OperationStatus>' is reachable as a supertype of type 'class java.util.Stack<com.novell.rolemap.client.ui.client.services.OperationStatus>'
+      'java.util.Stack<com.novell.rolemap.client.ui.client.services.OperationStatus>' is reachable as a subtype of type 'interface java.util.List<com.novell.rolemap.client.ui.client.services.OperationStatus>'
+      Started from 'java.util.List<com.novell.rolemap.client.ui.client.services.OperationStatus>'
+
+java.util.Vector<java.util.Map<java.lang.String, java.lang.String>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Vector<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a supertype of type 'class java.util.Stack<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.Stack<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a subtype of type 'interface java.util.List<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.List<java.util.Map<java.lang.String, java.lang.String>>' is reachable from field 'entitlementParams' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.Vector<com.novell.gwt.lib.client.widgets.table.DataRecord>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Vector<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a supertype of type 'class java.util.Stack<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.Stack<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.Vector<java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Vector<java.lang.String>' is reachable as a supertype of type 'class java.util.Stack<java.lang.String>'
+      'java.util.Stack<java.lang.String>' is reachable as a subtype of type 'interface java.util.List<java.lang.String>'
+      'java.util.List<java.lang.String>' is reachable from field 'm_dataList' of type 'com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable as a subtype of type 'class com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.Vector<com.google.gwt.user.client.ui.SuggestOracle.Suggestion>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Vector<com.google.gwt.user.client.ui.SuggestOracle.Suggestion>' is reachable as a supertype of type 'class java.util.Stack<com.google.gwt.user.client.ui.SuggestOracle.Suggestion>'
+      'java.util.Stack<com.google.gwt.user.client.ui.SuggestOracle.Suggestion>' is reachable as a subtype of type 'interface java.util.Collection<? extends com.google.gwt.user.client.ui.SuggestOracle.Suggestion>'
+      'java.util.Collection<? extends com.google.gwt.user.client.ui.SuggestOracle.Suggestion>' is reachable from field 'suggestions' of type 'com.google.gwt.user.client.ui.SuggestOracle.Response'
+      'com.google.gwt.user.client.ui.SuggestOracle.Response' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.Vector<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Vector<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>' is reachable as a supertype of type 'class java.util.Stack<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>'
+      'java.util.Stack<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>' is reachable as a subtype of type 'interface java.util.List<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>'
+      'java.util.List<com.novell.rolemap.client.ui.client.init.LogicalSystemModel>' is reachable from field 'm_logicalSystems' of type 'com.novell.rolemap.client.ui.client.init.DriverModel'
+      'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.init.DriverModel'
+      Type 'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable from array type 'com.novell.rolemap.client.ui.client.init.DriverModel[]'
+      'com.novell.rolemap.client.ui.client.init.DriverModel[]' is reachable from field 'm_drivers' of type 'com.novell.rolemap.client.ui.client.init.InitModel'
+      'com.novell.rolemap.client.ui.client.init.InitModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+
+java.util.Vector<com.novell.rolemap.client.ui.client.init.EntitlementModel>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Vector<com.novell.rolemap.client.ui.client.init.EntitlementModel>' is reachable as a supertype of type 'class java.util.Stack<com.novell.rolemap.client.ui.client.init.EntitlementModel>'
+      'java.util.Stack<com.novell.rolemap.client.ui.client.init.EntitlementModel>' is reachable as a subtype of type 'interface java.util.List<com.novell.rolemap.client.ui.client.init.EntitlementModel>'
+      'java.util.List<com.novell.rolemap.client.ui.client.init.EntitlementModel>' is reachable from field 'm_entitlements' of type 'com.novell.rolemap.client.ui.client.init.DriverModel'
+      'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.init.DriverModel'
+      Type 'com.novell.rolemap.client.ui.client.init.DriverModel' is reachable from array type 'com.novell.rolemap.client.ui.client.init.DriverModel[]'
+      'com.novell.rolemap.client.ui.client.init.DriverModel[]' is reachable from field 'm_drivers' of type 'com.novell.rolemap.client.ui.client.init.InitModel'
+      'com.novell.rolemap.client.ui.client.init.InitModel' is reachable as a subtype of type 'interface com.google.gwt.user.client.rpc.IsSerializable'
+      Type 'com.google.gwt.user.client.rpc.IsSerializable' is reachable from array type 'com.google.gwt.user.client.rpc.IsSerializable[]'
+      'com.google.gwt.user.client.rpc.IsSerializable[]' is reachable from field 'm_result' of type 'com.novell.rolemap.client.ui.client.services.OperationStatus'
+      'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.OperationStatus'
+      Type 'com.novell.rolemap.client.ui.client.services.OperationStatus' is reachable from array type 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+      Started from 'com.novell.rolemap.client.ui.client.services.OperationStatus[]'
+

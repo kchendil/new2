@@ -1,0 +1,257 @@
+/*
+ * There are styles specifically for Internet Explorer version 7.x and 8.x
+ */
+
+/** Fix links in the main header turning blue when mouse hovers */
+
+.header_actionbuttons a:hover {
+    color: white;
+}
+
+/*
+ * On IE7 making the list items float makes the dialog panel
+ * way too wide.  However, we need to make them float or the
+ * fields end up outside of the panel in Firefox 2.
+ */
+
+fieldset li {
+  float: none;
+}
+
+#edirconfig_form {
+  
+}
+
+#edirconfig_form h2 {
+  float: left;
+  clear: left;
+  width: 100%;
+}
+
+#edirconfig_form fieldset {
+  float: left;
+  clear: left;
+  width: 100%;
+}
+
+#edirconfig_form li {
+  width: 100%;
+}
+
+#edirconfig_form ol {
+  width: 100%;
+}
+
+#configcontent {
+  float: left;
+  clear: left;
+  width: 50em;
+}
+
+#edirconfig_form {
+  width: 50em;
+}
+
+.edirconfig_label {
+  font-size:0.75em;
+  width: 14em;
+  padding-right:0.2em;
+}
+
+.requiredtip {
+  margin-left: 10em;
+}
+
+.edirconfig_formfield {
+  float:left;
+  margin-top:5px;
+  width: 15em;
+}
+
+.rolemapfield {
+  margin-top:5px;
+  width:30em;
+  position: relative
+}
+
+#configresetfields label {
+  width: 100%;
+}
+
+.configtip {
+  font-size:0.85em;
+  left:33em;
+}
+
+#config_startrole {
+  margin-top: 10px;
+}
+
+.testtip {
+  font-size:0.85em;
+}
+
+#resetbuttonlable {
+  font-size:0.85em;
+  float: none;
+}
+
+#add_role_dialog, #edit_role_dialog {
+  width: 35em;
+}
+
+#add_role_dialog_level_tree img {
+  width: 12px;
+  height: 12px;
+}
+
+.requiredtip {
+  position: relative;
+  top: -15px;
+  font-size: 0.8em;
+}
+
+#edit_role_dialog_level_tree {
+  height: 3em;
+}
+
+#dn_picker_dialog_tree img {
+  width: 12px;
+  height: 12px;
+}
+
+.panelHeaderTop {
+  height: 75px;
+}
+
+.panelHeaderIcon {
+  position: relative;
+  top: -15px;
+  vertical-align: none;
+}
+
+.panelHeaderLabel {
+  font-size: 1em;
+  font-weight: normal;
+  position: relative;
+  top: 10px;
+}
+
+.panelHeaderBottom .novelllib_rightleftpanel_left {
+  z-index: 5;
+  background: #B1CBE0;
+}
+
+#authhead .panelHeaderTop {
+  width: 100%
+}
+
+.inline-label {
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+}
+
+tr.rowFormatterOdd td, tr.rowFormatterEven td {
+  height: 14px;
+}
+
+.roleGrid, .roleGridExpanded, .authGridExpanded, .mapGrid, .mapGridExpanded {
+  height: 35em;
+}
+
+.loginDetail {
+  width:100%;
+}
+
+#login_titlediv span a {
+  right: 10px;
+}
+
+.message_div {
+  font-size: 0.9em;
+}
+
+.gwt-Button {
+  min-height: 1.7em;
+  padding: 0px;
+  font-size: 0.9em;
+}
+
+#config_launch_link {
+  width: 16em;
+}
+
+.edirconfig_formfield, .configtip, .dialogtitle, .filter_dialog, .panelHeaderTextAction {
+  font-size: 0.8em;
+}
+
+.dialogtitle {
+  margin-bottom: 10px;
+}
+
+.dbimport_button {
+  line-height: 10px;
+}
+
+#edirconnect_submit_btn, #dbimport_resetdb_btn {
+  font-size: 1em;
+}
+
+.logical_system_panel_listbox {
+  height: 15em;
+  width: 13em;  
+  overflow: auto;
+  cursor: pointer;
+}
+
+/** Fix the load authorizations panel . . . defaulting to font size of small */
+#load_auth_dialog .dialog_content td, #load_auth_dialog .dialog_title {
+  font-size: 0.8em;
+}
+
+#load_auth_dialog .dialog_footer {
+  font-size: 0.9em;
+}
+
+/** Fix the load authorizations dialog scroll . . . max-height does not work on IE */
+#load_auth_table {
+  overflow:auto;
+  height:400;
+}
+
+#view_refs_dialog { 
+  z-index: 10;
+  position: absolute;
+  top: 75px;
+  left: 175px;
+  border: 1px solid black;
+  background-color: #F6F6F6;
+  width: 42em;
+}
+
+.viewRefsGrid {
+    display: block;
+    z-index: 10;
+    margin: 10px;
+  background-color: #ffffff;
+  border-left: 1px solid #999999;
+  border-right: 1px solid #999999;    
+    border-bottom: 1px solid #999999;    
+    border-top: 1px solid #999999;
+    height: 12em;
+    width: 40em;
+  overflow: auto;
+}
+
+.dialog_message {
+  font-size: 0.85em;
+}
+
+#addrole_dialog_refresh {
+  margin-left: 475px;
+}
+
+.problemsGrid {
+  height: 15em;
+}

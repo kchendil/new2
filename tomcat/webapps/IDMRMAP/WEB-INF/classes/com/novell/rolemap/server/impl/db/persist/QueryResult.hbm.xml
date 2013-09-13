@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+ <class name="com.novell.rolemap.server.impl.db.persist.QueryResult" table="queryresult">
+     <!-- Allow hibernate to manage the primary id internally -->
+	 <id name="queryResultId" column="queryresult_id">
+	 	<generator class="native"/>
+	 </id>
+	 <property name="value" column="value" length="255" type="java.lang.String" />
+	 <property name="subtype" column="subtype" length="255" type="java.lang.String" />
+     <property name="paramValue" column="param_value" length="255" type="java.lang.String" />
+	 <property name="defaultDisplayName" column="default_display_name" length="255" type="java.lang.String" />
+	 <property name="defaultDescription" column="default_description" length="255" type="java.lang.String" />
+		 
+	 <!-- Setup a foreign-key to the entitlement id column in the entitlement table.
+	      The set/get methods of the IQueryResult must get/set a IEntitlement object -->
+	 <many-to-one name="entitlement" column="entitlement_id" class="com.novell.rolemap.server.impl.db.persist.Entitlement" not-null="true"/>
+	 
+	 <!-- Setup a foreign-key to the logical system id column in the logical system table.
+	      The set/get methods of the IQueryResult must get/set a ILogicalSystem object -->
+	 <many-to-one name="logicalSystem" column="logicalsystem_id" class="com.novell.rolemap.server.impl.db.persist.LogicalSystem" not-null="true"/>
+	 
+	   <!-- Setup a parent/child relationship between the query result and query result labels.
+	      This does not create a column in the query result label table it simply allows 
+	      hibernate to cascade the delete of a query result to the child query result label table --> 
+	  <set name="queryResultLabels" inverse="true" cascade="all">
+    	<key column="queryresult_id"/>
+    	<one-to-many class="com.novell.rolemap.server.impl.db.persist.QueryResultLabel"/>
+  	  </set>
+ </class>
+ 
+</hibernate-mapping>

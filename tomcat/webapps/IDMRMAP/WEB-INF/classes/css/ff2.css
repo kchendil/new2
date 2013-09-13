@@ -1,0 +1,12 @@
+/*
+ * There are styles specifically for Firefox version 2.x
+ */
+ 
+#add_role_dialog_owner {
+  position: relative;
+  top: -15px;
+}
+
+.dialog_footer {
+  height: 2em;
+}

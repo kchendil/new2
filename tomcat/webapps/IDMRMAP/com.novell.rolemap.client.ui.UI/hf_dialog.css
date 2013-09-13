@@ -1,0 +1,50 @@
+.dialog  /* apply to a span - this is a wrapper around the entire dialog */ 
+	{ background-color: #f6f6f6; 
+	position: absolute; 
+	left: 15px; 
+	top: 5px; 
+	width: 400px; 
+	border: solid 1px black;
+	z-index: 10 }
+
+.dialog .title  /* apply to the title DIV  <div class="title"> */ 
+	{ color: white; 
+	font-weight: bold; 
+	font-size: 1em; 
+	background-color: #458ab9; 
+	text-align: left; 
+	text-indent: 0.2em; 
+	padding: 0.3em}
+
+.dialog .subtitle  /* apply to a DIV to section page  <div class="subtitle"> */
+	{ background-color: #efeeec; 
+	padding: 4px; 
+	border-bottom: 1px solid #babdb6 }
+
+.dialog .title img.closebutton  /* apply to the <img> inside the title DIV  <img class="closebutton"> */
+	{ position: absolute; top: 3px; right: 3px; }
+	
+.dialog .instructions 
+	{ margin: 10px; }
+
+.dialog .content 
+	{ margin: 10px; }
+
+.dialog .content .list1 
+	{ padding: 2px;
+	font-size: .85em;
+	border-bottom: 1px solid #babdb6;
+	overflow:hidden;	
+	 }
+
+.dialog .footer 
+	{ position: relative; background-color: #efeeec; margin-top: 1em; padding: 0.5em; border-top: 1px solid #babdb6; }
+	
+.dialog .footer img 
+	{ float: right; 
+	margin-right: 5px; }
+	
+	
+.dialog .padding10 
+    { padding: 10px; }
+	

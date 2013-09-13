@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+ <class name="com.novell.rolemap.server.impl.db.persist.EntitlementConfig" table="entitlementconfig">
+     <!-- Allow hibernate to manage the primary id internally -->
+	 <id name="entitlementConfigId" column="entitlementconfig_id">
+	 	<generator class="native"/>
+	 </id>
+	 <property name="entitlementConfigDn" column="entitlementconfig_dn" length="255" type="java.lang.String" />
+	 <property name="minVersion" column="min_version" length="255" type="java.lang.String" />
+	 <property name="acceptedType" column="accepted_type" length="255" type="java.lang.String" />
+	 
+	 <!-- Setup a foreign-key to the driver id column in the driver table.
+	      The set/get methods of the IEntitlementConfig must get/set a IDriver object -->
+	 <many-to-one name="driver" column="driver_id" lazy="false" class="com.novell.rolemap.server.impl.db.persist.Driver" not-null="true"/>
+ </class>
+ 
+</hibernate-mapping>

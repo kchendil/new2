@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- saved from url=(0014)about:internet -->
+<html xml:lang="en" lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en" />
+<meta name="Generator" content="Novell Documentation" />
+<meta name="Generation-Date" content="Tuesday, June 29, 2010 13:52" />
+<meta name="Content-Date" content="Mon, 29 Jun 2010 12:00:00 GMT" />
+<meta name="Copyright" content="Copyright Novell, Inc. 2010" />
+
+<style type="text/css">
+  @import url(ui/styles.css);
+</style>
+
+<title>Issues while Using Role Mapping Administrator</title>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+  var thisId = "bou8jo3";
+  var parentId = "biru1li";
+//--><!]]>
+</script>
+<script type="text/javascript" src="ui/config.js"></script>
+<script type="text/javascript" src="ui/resource.js"></script>
+<script type="text/javascript" src="ui/topic.js"></script>
+</head>
+
+<body>
+
+<noscript>
+  <div class='nav'>
+    <a id='tocref' href='bookinfo.html' class='nav'><img src='ui/images/root2.gif' alt='Table of Contents' title='Table of Contents' />Table of Contents</a>
+  </div>
+</noscript>
+
+<div class='nav' id='topnav'>
+  <a href="bou7zqk.html" class="nav"><img src="ui/images/prev.png" alt="previous" title="previous" />previous</a>
+  <img src="ui/images/virt_dot-line.gif" alt="" />
+  <a href="bpqu0po.html" class="nav">&nbsp;next<img src="ui/images/next.png" alt="next" title="next" /></a>
+</div>
+
+
+<div class="sect1" id="bou8jo3">
+
+<h1 class="title"> Issues while Using Role Mapping Administrator </h1>
+
+<div class="sect2" id="bou8jzz">
+
+<h2 class="title"> Expected Roles Are Not Being Displayed</h2>
+
+<h3 class="bridgehead" id="bou8k8v"> Problem</h3>
+
+<p class="para">Not all of the roles from the Roles Based Provisioning Module are being displayed, or too many roles are being displayed.</p>
+<h3 class="bridgehead" id="bou8k9f"> Solution</h3>
+
+<p class="para">If a user belongs to the Role Module Administrator role in the Roles Based Provisioning Module, the Role Mapping Administrator uses the proxy admin credentials defined in the Role Mapping Administrator configuration. Verify the proxy admin user has the correct rights to the Identity Vault that contains the User Application driver.</p>
+</div>
+
+<div class="sect2" id="bou8kpi">
+
+<h2 class="title"> Expected Roles from the SAP Portal Are Not Being Displayed</h2>
+
+<h3 class="bridgehead" id="bou8ksx"> Problem</h3>
+
+<p class="para">When loading authorizations from the SAP Portal system, groups that start with SAP_ are not being displayed.</p>
+<h3 class="bridgehead" id="bou8kub"> Solution</h3>
+
+<p class="para">If the SAP Portal is using an ABAP server as the Authentication DataSource, then by default the UME cannot assign ABAP roles (which appear as groups in the SAP Portal) directly to ABAP users. Most of these ABAP roles begin with SAP_. The SAP Portal driver is configured to filter these roles when the Role Mapping Administrator queries for the available groups.</p>
+<p class="para">The filter is an XML filter element that is appended to the entitlement configuration object. By default, the filter element contains an attribute type that has a value of exclude. The filter element holds individual filters. Each filter contains the following attributes:</p>
+<div class="itemizedlist">
+<ul class="listbullet">
+<li class="listitem">
+<div class="formalpara" id="bou8lj4">
+              <p class="title"><em class="title">read-attr:</em>
+              The source for the match.</p>
+            </div>
+</li>
+<li class="listitem">
+<div class="formalpara" id="bou8lnf">
+              <p class="title"><em class="title">source-name:</em>
+              The attribute on which the regular expression is evaluated against.</p>
+            </div>
+</li>
+<li class="listitem">
+<div class="formalpara" id="bou8lp4">
+              <p class="title"><em class="title">regex:</em>
+              The regular expression that is used.</p>
+            </div>
+</li></ul></div>
+
+<p class="para">You can modify the regular expression value or remove the value to change how the Role Mapping Administrator filters the results. By default, the regular expression is ^SAP_ which is evaluated as start with SAP underscore.</p>
+<div class="figure" id="bkczorj"><p class="title"><em class="num">Figure 1 </em>XML Filter Element</p>
+              <img src="images/portal_regex_a.png" alt="" />
+            </div>
+
+<p class="para">To change the filter so you can see all groups:</p>
+<div class="procedure">
+<ol class="steps">
+<li class="step" id="bkcxca7">
+<p class="para">Using Designer or iManager, edit the SAP Portal driver policy pub-its-InitEntitlementConfigurationResource on the Publisher channel.</p></li>
+<li class="step" id="bkcxdb3">
+<p class="para">In Policy Builder, select the Entitlements rule.</p></li>
+<li class="step" id="bkcxdrf">
+<p class="para">In the for each action, find the XML element of filter.</p></li>
+<li class="step" id="bkcy39f">
+<p class="para">Change the type attribute value from exclude to include.</p></li>
+<li class="step" id="bkczg7w">
+<p class="para">Remove the regular expression value of ^SAP_.</p></li>
+<li class="step" id="bkczgqu">
+<p class="para">Save the changes, then restart the driver to have the changes take effect.</p></li></ol>
+</div>
+
+</div>
+
+<div class="sect2" id="bou8nzf">
+
+<h2 class="title"> Problems with Authorizations not Being Displayed</h2>
+
+<h3 class="bridgehead" id="bjsiop8"> Problem</h3>
+
+<p class="para">The authorizations were loaded, but they are not displayed in the Authorization panel.</p>
+<h3 class="bridgehead" id="bjsiphh"> Solution</h3>
+
+<p class="para">One of the reasons for this issue could be because of shutting down the Tomcat server by pressing the <span class="command">CTRL+C</span> key combination, which stops the Tomcat server but not the RMA database server. To shutdown the RMA service, use the <span class="filename">stop.sh/stop.bat</span> command from the <span class="filename">&lt;rma_install_path&gt;/rma/</span> directory.</p>
+</div>
+
+</div>
+
+<p class="trademark"> For trademark and copyright information, see <a href="legal.html">Legal Notices</a>.</p>
+
+<div class='nav' id='bottomnav'>
+  <a href="bou7zqk.html" class="nav"><img src="ui/images/prev.png" alt="previous" title="previous" />previous</a>
+  <img src="ui/images/virt_dot-line.gif" alt="" />
+  <a href="bpqu0po.html" class="nav">&nbsp;next<img src="ui/images/next.png" alt="next" title="next" /></a>
+</div>
+
+</body>
+</html>

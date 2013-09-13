@@ -1,0 +1,44 @@
+Sep 11, 2013 5:31:44 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /root/idm/jre/lib/i386/client:/root/idm/jre/lib/i386:/root/idm/jre/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib
+Sep 11, 2013 5:31:45 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Sep 11, 2013 5:31:45 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3069 ms
+Sep 11, 2013 5:31:45 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Sep 11, 2013 5:31:45 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.18
+Sep 11, 2013 5:31:45 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive IDMRMAP.war
+Sep 11, 2013 5:32:10 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Sep 11, 2013 5:32:10 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 25400 ms
+Sep 11, 2013 7:53:48 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Sep 11, 2013 7:53:50 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Sep 11, 2013 7:53:54 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081
+Sep 11, 2013 8:25:59 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Sep 11, 2013 8:25:59 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Sep 11, 2013 8:25:59 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3294 ms
+Sep 11, 2013 8:26:00 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Sep 11, 2013 8:26:00 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.18
+Sep 11, 2013 8:26:00 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive IDMRMAP.war
+Sep 11, 2013 8:26:25 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Sep 11, 2013 8:26:25 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 25668 ms
+Sep 11, 2013 8:47:26 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Sep 11, 2013 8:47:27 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Sep 11, 2013 8:47:29 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081

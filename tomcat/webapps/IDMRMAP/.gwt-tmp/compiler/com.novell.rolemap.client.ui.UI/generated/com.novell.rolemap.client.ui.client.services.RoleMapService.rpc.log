@@ -1,0 +1,431 @@
+Reachable types computed on: Mon Jun 11 07:23:59 IST 2012
+com.google.gwt.i18n.client.impl.ConstantMap
+   Serialization status
+      Not serializable
+   Path
+      'com.google.gwt.i18n.client.impl.ConstantMap' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.lang.String>'
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from field 'm_fieldData' of type 'com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable as a subtype of type 'class com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+com.novell.gwt.lib.client.widgets.table.DataRecord
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable as a subtype of type 'class com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+com.novell.gwt.lib.client.widgets.table.DataRecord[]
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+com.novell.rolemap.client.ui.client.UIRemoteException
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.UIRemoteException' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.UIRemoteException'
+      Started from 'com.novell.rolemap.client.ui.client.UIRemoteException'
+
+com.novell.rolemap.client.ui.client.grid.MapChangeInfo
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.grid.MapChangeInfo' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.grid.MapChangeInfo'
+      Started from 'com.novell.rolemap.client.ui.client.grid.MapChangeInfo'
+
+com.novell.rolemap.client.ui.client.services.CodeMapModel
+   Serialization status
+      Instantiable
+   Path
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.lang.Exception
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.RuntimeException
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.String
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.String' is reachable as a subtype of type 'class java.lang.String'
+      Started from 'java.lang.String'
+
+java.lang.String[]
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.String' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.lang.String>' is reachable as a subtype of type 'interface java.util.List<java.lang.String>'
+      'java.util.List<java.lang.String>' is reachable from field 'm_dataList' of type 'com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable as a subtype of type 'class com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.lang.Throwable
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Throwable' is reachable as a supertype of type 'class java.lang.Exception'
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.util.AbstractMap[]
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a subtype of type 'interface java.util.List<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.List<java.util.Map<java.lang.String, java.lang.String>>' is reachable from field 'entitlementParams' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.ArrayList<java.util.Map<java.lang.String, java.lang.String>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a subtype of type 'interface java.util.List<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.List<java.util.Map<java.lang.String, java.lang.String>>' is reachable from field 'entitlementParams' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.ArrayList<java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<java.lang.String>' is reachable as a subtype of type 'interface java.util.List<java.lang.String>'
+      'java.util.List<java.lang.String>' is reachable from field 'm_dataList' of type 'com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable as a subtype of type 'class com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.Arrays.ArrayList<java.util.Map<java.lang.String, java.lang.String>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Arrays.ArrayList<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a subtype of type 'interface java.util.List<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.List<java.util.Map<java.lang.String, java.lang.String>>' is reachable from field 'entitlementParams' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.Arrays.ArrayList<java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Arrays.ArrayList<java.lang.String>' is reachable as a subtype of type 'interface java.util.List<java.lang.String>'
+      'java.util.List<java.lang.String>' is reachable from field 'm_dataList' of type 'com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable as a subtype of type 'class com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.Arrays.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Arrays.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.HashMap<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.HashMap<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable as a supertype of type 'class java.util.LinkedHashMap<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>'
+      'java.util.LinkedHashMap<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>'
+      'java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable from field 'mappingList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.HashMap<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.HashMap<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a supertype of type 'class java.util.LinkedHashMap<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.LinkedHashMap<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from type argument 1 of type 'java.util.LinkedHashMap<K, V>'
+      'java.util.LinkedHashMap<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>'
+      'java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable from field 'mappingList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.HashMap<java.lang.String, java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.HashMap<java.lang.String, java.lang.String>' is reachable as a supertype of type 'class java.util.LinkedHashMap<java.lang.String, java.lang.String>'
+      'java.util.LinkedHashMap<java.lang.String, java.lang.String>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.lang.String>'
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from field 'm_fieldData' of type 'com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable as a subtype of type 'class com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.HashMap[]
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a subtype of type 'interface java.util.List<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.List<java.util.Map<java.lang.String, java.lang.String>>' is reachable from field 'entitlementParams' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.IdentityHashMap<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.IdentityHashMap<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>'
+      'java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable from field 'mappingList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.IdentityHashMap<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.IdentityHashMap<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from type argument 1 of type 'java.util.LinkedHashMap<K, V>'
+      'java.util.LinkedHashMap<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>'
+      'java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable from field 'mappingList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.IdentityHashMap<java.lang.String, java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.IdentityHashMap<java.lang.String, java.lang.String>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.lang.String>'
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from field 'm_fieldData' of type 'com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable as a subtype of type 'class com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.IdentityHashMap[]
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a subtype of type 'interface java.util.List<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.List<java.util.Map<java.lang.String, java.lang.String>>' is reachable from field 'entitlementParams' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.LinkedHashMap<java.lang.String, java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedHashMap<java.lang.String, java.lang.String>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.lang.String>'
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from field 'm_fieldData' of type 'com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable as a subtype of type 'class com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.LinkedHashMap<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedHashMap<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>'
+      'java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable from field 'mappingList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.LinkedHashMap<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedHashMap<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from type argument 1 of type 'java.util.LinkedHashMap<K, V>'
+      'java.util.LinkedHashMap<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable as a subtype of type 'interface java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>'
+      'java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.novell.gwt.lib.client.widgets.table.DataRecord>>' is reachable from field 'mappingList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.LinkedHashMap[]
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a subtype of type 'interface java.util.List<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.List<java.util.Map<java.lang.String, java.lang.String>>' is reachable from field 'entitlementParams' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.LinkedList<java.util.Map<java.lang.String, java.lang.String>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedList<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a subtype of type 'interface java.util.List<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.List<java.util.Map<java.lang.String, java.lang.String>>' is reachable from field 'entitlementParams' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.LinkedList<java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedList<java.lang.String>' is reachable as a subtype of type 'interface java.util.List<java.lang.String>'
+      'java.util.List<java.lang.String>' is reachable from field 'm_dataList' of type 'com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable as a subtype of type 'class com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.LinkedList<com.novell.gwt.lib.client.widgets.table.DataRecord>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.Map[]
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a subtype of type 'interface java.util.List<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.List<java.util.Map<java.lang.String, java.lang.String>>' is reachable from field 'entitlementParams' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.Map<java.lang.String, java.lang.String>[]
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Map<java.lang.String, java.lang.String>' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a subtype of type 'interface java.util.List<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.List<java.util.Map<java.lang.String, java.lang.String>>' is reachable from field 'entitlementParams' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.Stack<java.util.Map<java.lang.String, java.lang.String>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Stack<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a subtype of type 'interface java.util.List<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.List<java.util.Map<java.lang.String, java.lang.String>>' is reachable from field 'entitlementParams' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.Stack<java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Stack<java.lang.String>' is reachable as a subtype of type 'interface java.util.List<java.lang.String>'
+      'java.util.List<java.lang.String>' is reachable from field 'm_dataList' of type 'com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable as a subtype of type 'class com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.Stack<com.novell.gwt.lib.client.widgets.table.DataRecord>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Stack<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.Vector<java.util.Map<java.lang.String, java.lang.String>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Vector<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a supertype of type 'class java.util.Stack<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.Stack<java.util.Map<java.lang.String, java.lang.String>>' is reachable as a subtype of type 'interface java.util.List<java.util.Map<java.lang.String, java.lang.String>>'
+      'java.util.List<java.util.Map<java.lang.String, java.lang.String>>' is reachable from field 'entitlementParams' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.Vector<java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Vector<java.lang.String>' is reachable as a supertype of type 'class java.util.Stack<java.lang.String>'
+      'java.util.Stack<java.lang.String>' is reachable as a subtype of type 'interface java.util.List<java.lang.String>'
+      'java.util.List<java.lang.String>' is reachable from field 'm_dataList' of type 'com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable as a subtype of type 'class com.novell.gwt.lib.client.widgets.table.DataRecord'
+      'com.novell.gwt.lib.client.widgets.table.DataRecord' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+
+java.util.Vector<com.novell.gwt.lib.client.widgets.table.DataRecord>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Vector<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a supertype of type 'class java.util.Stack<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.Stack<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable as a subtype of type 'interface java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>'
+      'java.util.List<com.novell.gwt.lib.client.widgets.table.DataRecord>' is reachable from field 'entitlementsToBeSyncList' of type 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      'com.novell.rolemap.client.ui.client.services.CodeMapModel' is reachable as a subtype of type 'class com.novell.rolemap.client.ui.client.services.CodeMapModel'
+      Started from 'com.novell.rolemap.client.ui.client.services.CodeMapModel'
+

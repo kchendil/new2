@@ -1,0 +1,22 @@
+Jul 31, 2013 2:17:24 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /root/idm/jre/lib/i386/client:/root/idm/jre/lib/i386:/root/idm/jre/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib
+Jul 31, 2013 2:17:25 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Jul 31, 2013 2:17:25 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2107 ms
+Jul 31, 2013 2:17:25 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 31, 2013 2:17:25 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.18
+Jul 31, 2013 2:17:25 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive IDMRMAP.war
+Jul 31, 2013 2:17:48 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Jul 31, 2013 2:17:48 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 23669 ms
+Jul 31, 2013 2:53:24 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Jul 31, 2013 2:53:25 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jul 31, 2013 2:53:26 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081

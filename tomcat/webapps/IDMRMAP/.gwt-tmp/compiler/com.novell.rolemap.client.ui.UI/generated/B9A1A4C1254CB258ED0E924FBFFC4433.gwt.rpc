@@ -1,0 +1,15 @@
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException, true
+com.novell.rolemap.client.ui.client.UIRemoteException, true
+com.novell.rolemap.client.ui.client.config.EdirConfigModel, true
+com.novell.rolemap.client.ui.client.config.VaultValue, true
+[Lcom.novell.rolemap.client.ui.client.config.VaultValue;, true
+java.lang.Boolean, true
+java.lang.Exception, false
+java.lang.RuntimeException, false
+java.lang.String, true
+java.lang.Throwable, false
+java.util.HashMap, true
+java.util.HashSet, true
+java.util.IdentityHashMap, true
+java.util.LinkedHashMap, true
+java.util.LinkedHashSet, true

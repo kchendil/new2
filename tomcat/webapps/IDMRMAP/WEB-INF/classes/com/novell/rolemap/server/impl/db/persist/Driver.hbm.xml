@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="com.novell.rolemap.server.impl.db.persist.Driver"
+		table="driver">
+		<!-- Allow hibernate to manage the primary id internally -->
+		<id name="driverId" column="driver_id">
+			<generator class="native" />
+		</id>
+		<property name="driverDn" column="driver_dn" length="255"
+			type="java.lang.String" />
+		<property name="driverGuid" column="driver_guid" length="255"
+			type="java.lang.String" />
+		<property name="driverType" column="driver_type" length="255"
+			type="java.lang.String" />
+		<property name="driverVersion" column="driver_version"
+			length="255" type="java.lang.String" />
+		<property name="driverImageURL" column="driver_image_url"
+			length="255" type="java.lang.String" />
+		<!--
+			Setup a parent/child relationship between the driver and its children
+			This does not create a column in the driver table it simply allows
+			hibernate to cascade the delete of a driver to child tables. Since
+			there will never be many children in these relationships it is safe
+			to set lazy fetching to false so the child lists are populated with
+			the driver is loaded
+		-->
+
+		<!--
+			Entitlement List
+		-->
+		<set name="entitlements" inverse="true" cascade="all"
+			lazy="false">
+			<key column="driver_id" />
+			<one-to-many class="com.novell.rolemap.server.impl.db.persist.Entitlement" />
+		</set>
+
+		<!--
+			LogicalSystem List
+		-->
+		<set name="logicalSystems" inverse="true" cascade="all"
+			lazy="false">
+			<key column="driver_id" />
+			<one-to-many
+				class="com.novell.rolemap.server.impl.db.persist.LogicalSystem" />
+		</set>
+
+		<!--
+			Entitlement Config List
+		-->
+		<set name="entitlementConfigs" inverse="true" cascade="all"
+			lazy="false">
+			<key column="driver_id" />
+			<one-to-many
+				class="com.novell.rolemap.server.impl.db.persist.EntitlementConfig" />
+		</set>
+
+		<!--
+			Driver Label List
+		-->
+		<set name="driverLabels" inverse="true" cascade="all"
+			lazy="false">
+			<key column="driver_id" />
+			<one-to-many class="com.novell.rolemap.server.impl.db.persist.DriverLabel" />
+		</set>
+	</class>
+</hibernate-mapping>

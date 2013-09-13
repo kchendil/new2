@@ -1,0 +1,11 @@
+[Server@60172ec6]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@60172ec6]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@60172ec6]: Startup sequence initiated from main() method
+[Server@60172ec6]: Loaded properties from [/server.properties]
+[Server@60172ec6]: Initiating startup sequence...
+[Server@60172ec6]: Server socket opened successfully in 530 ms.
+[Server@60172ec6]: Database [index=0, id=0, db=file:/opt/novell/idm/rma/tomcat/db/mydb, alias=idmrmap] opened sucessfully in 1690 ms.
+[Server@60172ec6]: Startup sequence completed in 2378 ms.
+[Server@60172ec6]: 2013-09-13 04:43:16.493 HSQLDB server 1.8.0 is online
+[Server@60172ec6]: To close normally, connect and execute SHUTDOWN SQL
+[Server@60172ec6]: From command line, use [Ctrl]+[C] to abort abruptly

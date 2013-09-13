@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+ <class name="com.novell.rolemap.server.impl.db.persist.Host" table="host">
+	 <id name="displayName" column="display_name" length="255" type="string"/>
+	 <property name="hostAddress" column="host_address" type="string" length="255" not-null="true" />
+	 <property name="hostPort" column="host_port" length="5" type="integer" /> 
+	 <property name="proxyIdDn" column="proxy_admin_id" length="255" type="string" />
+	 <property name="proxyPassword" column="proxy_admin_pwd" length="30" type="string" />
+	 <property name="userAppDriverString" column="uad_dn" length="255" type="string" /> 
+	 <property name="hostSSL" column="host_ssl" type="java.lang.Boolean" />
+	 <property name="userRootContainerString" column="user_root_dn" length="255" type="string" /> 
+	 <property name="urlAccessManager" column="nam_url" length="255" type="string" />
+	 <property name="urlRbpmRest" column="rbpm_rest_url" length="255" type="string" />
+	 <property name="driverDiscoveryString" column="driver_discovery_dn" length="255" type="string" />
+	 <property name="hostId" column="host_id"  type="integer" />
+	 <property name="activeStatus" column="active_status" type="java.lang.Boolean" />
+ </class>
+</hibernate-mapping>
